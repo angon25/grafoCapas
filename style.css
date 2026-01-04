@@ -1,0 +1,187 @@
+:root {
+  --bg-color: #050510;
+  --text-color: #ffffff;
+  --node-color-1: #00f0ff;
+  --node-color-2: #ff0055;
+  --node-color-3: #ffaa00;
+  --node-color-4: #00ffaa;
+  --link-color: #aaaac4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Controls Sidebar */
+#controls {
+  width: 280px;
+  height: 100vh;
+  background: rgba(10, 10, 20, 0.95);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 10;
+  flex-shrink: 0;
+  /* Prevent shrinking */
+  transition: width 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+#controls.collapsed {
+  width: 0;
+  padding: 0;
+  opacity: 0;
+  border-right: none;
+}
+
+/* Toggle Button */
+#sidebar-toggle {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  z-index: 20;
+  background: rgba(20, 20, 30, 0.8);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#sidebar-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+/* App Container */
+#app {
+  flex-grow: 1;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  /* Smooth resize if needed */
+}
+
+#controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ccc;
+  transition: color 0.2s;
+}
+
+#controls label:hover {
+  color: #fff;
+}
+
+#controls input[type="radio"] {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--node-color-1);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+#controls input[type="radio"]::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--node-color-1);
+}
+
+#controls input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.node circle {
+  stroke: #ffffff;
+  stroke-width: 1.5px;
+  cursor: grab;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+}
+
+.node circle:hover {
+  stroke-width: 3px;
+  filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.8));
+  r: 25;
+  /* temporary increase */
+}
+
+.node text {
+  font-size: 10px;
+  fill: #aaa;
+  pointer-events: none;
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.node:hover text {
+  fill: #fff;
+  font-size: 12px;
+}
+
+.link {
+  stroke: var(--link-color);
+  stroke-opacity: 0.6;
+  stroke-width: 1.5px;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px 15px;
+  background: rgba(20, 20, 30, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: #eee;
+  font-size: 12px;
+  max-width: 200px;
+  z-index: 10;
+}
+
+.tooltip h3 {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  color: var(--node-color-1);
+}
+
+.tooltip p {
+  margin: 2px 0;
+}

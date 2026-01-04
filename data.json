@@ -1,0 +1,698 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "country": "Per\u00fa",
+      "application": "NetFlow8",
+      "responsible": "Ivy Garcia",
+      "tier": "Mid"
+    },
+    {
+      "id": "2",
+      "country": "Panam\u00e1",
+      "application": "LogiSync14",
+      "responsible": "Alice Smith",
+      "tier": "High"
+    },
+    {
+      "id": "3",
+      "country": "Chile",
+      "application": "NetLink75",
+      "responsible": "Grace Gomez",
+      "tier": "High"
+    },
+    {
+      "id": "4",
+      "country": "Panam\u00e1",
+      "application": "LogiSys20",
+      "responsible": "Bob Garcia",
+      "tier": "Mid"
+    },
+    {
+      "id": "5",
+      "country": "Per\u00fa",
+      "application": "NetSync39",
+      "responsible": "Grace Smith",
+      "tier": "Low"
+    },
+    {
+      "id": "6",
+      "country": "Panam\u00e1",
+      "application": "AgroHub49",
+      "responsible": "Alice Smith",
+      "tier": "Mid"
+    },
+    {
+      "id": "7",
+      "country": "Panam\u00e1",
+      "application": "LogiApp45",
+      "responsible": "Jack Gomez",
+      "tier": "Low"
+    },
+    {
+      "id": "8",
+      "country": "Per\u00fa",
+      "application": "HealthSync62",
+      "responsible": "Jack Garcia",
+      "tier": "High"
+    },
+    {
+      "id": "9",
+      "country": "Panam\u00e1",
+      "application": "SecTrack86",
+      "responsible": "Kevin Perez",
+      "tier": "High"
+    },
+    {
+      "id": "10",
+      "country": "Colombia",
+      "application": "NetLink64",
+      "responsible": "Nora Smith",
+      "tier": "High"
+    },
+    {
+      "id": "11",
+      "country": "Panam\u00e1",
+      "application": "EduFlow33",
+      "responsible": "Charlie Perez",
+      "tier": "Mid"
+    },
+    {
+      "id": "12",
+      "country": "Panam\u00e1",
+      "application": "PayTrack83",
+      "responsible": "Nora Garcia",
+      "tier": "Mid"
+    },
+    {
+      "id": "13",
+      "country": "Panam\u00e1",
+      "application": "PayTrack9",
+      "responsible": "Alice Gomez",
+      "tier": "Mid"
+    },
+    {
+      "id": "14",
+      "country": "Chile",
+      "application": "SecLink1",
+      "responsible": "Grace Perez",
+      "tier": "High"
+    },
+    {
+      "id": "15",
+      "country": "Chile",
+      "application": "NetTrack88",
+      "responsible": "Eva Perez",
+      "tier": "Low"
+    },
+    {
+      "id": "16",
+      "country": "Panam\u00e1",
+      "application": "CloudNet10",
+      "responsible": "Sam Gomez",
+      "tier": "High"
+    },
+    {
+      "id": "17",
+      "country": "Per\u00fa",
+      "application": "LogiSync4",
+      "responsible": "Ivy Garcia",
+      "tier": "Low"
+    },
+    {
+      "id": "18",
+      "country": "Colombia",
+      "application": "NetSys39",
+      "responsible": "Tom Rodriguez",
+      "tier": "Mid"
+    },
+    {
+      "id": "19",
+      "country": "Colombia",
+      "application": "NetApp64",
+      "responsible": "Rosa Rodriguez",
+      "tier": "Mid"
+    },
+    {
+      "id": "20",
+      "country": "Panam\u00e1",
+      "application": "LogiNet78",
+      "responsible": "Mario Smith",
+      "tier": "High"
+    },
+    {
+      "id": "21",
+      "country": "Chile",
+      "application": "CloudFlow37",
+      "responsible": "Bob Smith",
+      "tier": "Mid"
+    },
+    {
+      "id": "22",
+      "country": "Colombia",
+      "application": "FinApp95",
+      "responsible": "Grace Rodriguez",
+      "tier": "High"
+    },
+    {
+      "id": "23",
+      "country": "Panam\u00e1",
+      "application": "NetHub42",
+      "responsible": "Jack Smith",
+      "tier": "High"
+    },
+    {
+      "id": "24",
+      "country": "Chile",
+      "application": "HealthGuard25",
+      "responsible": "Quinn Gomez",
+      "tier": "Low"
+    },
+    {
+      "id": "25",
+      "country": "Colombia",
+      "application": "NetNet65",
+      "responsible": "Jack Rodriguez",
+      "tier": "Low"
+    },
+    {
+      "id": "26",
+      "country": "Colombia",
+      "application": "LogiTrack78",
+      "responsible": "Mario Gomez",
+      "tier": "Mid"
+    },
+    {
+      "id": "27",
+      "country": "Per\u00fa",
+      "application": "HealthSync52",
+      "responsible": "Tom Perez",
+      "tier": "Mid"
+    },
+    {
+      "id": "28",
+      "country": "Per\u00fa",
+      "application": "SecSys14",
+      "responsible": "Rosa Rodriguez",
+      "tier": "High"
+    },
+    {
+      "id": "29",
+      "country": "Colombia",
+      "application": "EduNet46",
+      "responsible": "Tom Gomez",
+      "tier": "Low"
+    },
+    {
+      "id": "30",
+      "country": "Chile",
+      "application": "EduSync16",
+      "responsible": "Quinn Gomez",
+      "tier": "Low"
+    },
+    {
+      "id": "31",
+      "country": "Colombia",
+      "application": "SecSync48",
+      "responsible": "Mario Perez",
+      "tier": "Mid"
+    },
+    {
+      "id": "32",
+      "country": "Chile",
+      "application": "CloudLink46",
+      "responsible": "Eva Perez",
+      "tier": "Low"
+    },
+    {
+      "id": "33",
+      "country": "Per\u00fa",
+      "application": "NetSoft60",
+      "responsible": "David Garcia",
+      "tier": "Mid"
+    },
+    {
+      "id": "34",
+      "country": "Panam\u00e1",
+      "application": "NetGuard23",
+      "responsible": "Ivy Garcia",
+      "tier": "High"
+    },
+    {
+      "id": "35",
+      "country": "Colombia",
+      "application": "NetHub3",
+      "responsible": "Grace Rodriguez",
+      "tier": "Low"
+    },
+    {
+      "id": "36",
+      "country": "Colombia",
+      "application": "AgroSoft74",
+      "responsible": "Eva Perez",
+      "tier": "High"
+    },
+    {
+      "id": "37",
+      "country": "Per\u00fa",
+      "application": "PayNet97",
+      "responsible": "Alice Garcia",
+      "tier": "High"
+    },
+    {
+      "id": "38",
+      "country": "Panam\u00e1",
+      "application": "SecSys10",
+      "responsible": "Rosa Rodriguez",
+      "tier": "Mid"
+    },
+    {
+      "id": "39",
+      "country": "Chile",
+      "application": "CloudSys3",
+      "responsible": "Charlie Garcia",
+      "tier": "Mid"
+    },
+    {
+      "id": "40",
+      "country": "Colombia",
+      "application": "LogiSys32",
+      "responsible": "Charlie Smith",
+      "tier": "Mid"
+    },
+    {
+      "id": "41",
+      "country": "Per\u00fa",
+      "application": "FinTrack24",
+      "responsible": "Mario Rodriguez",
+      "tier": "Mid"
+    },
+    {
+      "id": "42",
+      "country": "Per\u00fa",
+      "application": "CloudHub44",
+      "responsible": "Nora Garcia",
+      "tier": "High"
+    },
+    {
+      "id": "43",
+      "country": "Colombia",
+      "application": "FinHub64",
+      "responsible": "Jack Gomez",
+      "tier": "High"
+    },
+    {
+      "id": "44",
+      "country": "Panam\u00e1",
+      "application": "AgroNet5",
+      "responsible": "Sam Gomez",
+      "tier": "Low"
+    },
+    {
+      "id": "45",
+      "country": "Chile",
+      "application": "CloudFlow11",
+      "responsible": "Ivy Gomez",
+      "tier": "Mid"
+    },
+    {
+      "id": "46",
+      "country": "Chile",
+      "application": "EduSoft30",
+      "responsible": "Alice Smith",
+      "tier": "Low"
+    },
+    {
+      "id": "47",
+      "country": "Panam\u00e1",
+      "application": "FinTrack86",
+      "responsible": "David Smith",
+      "tier": "Mid"
+    },
+    {
+      "id": "48",
+      "country": "Per\u00fa",
+      "application": "PayHub73",
+      "responsible": "Nora Perez",
+      "tier": "High"
+    },
+    {
+      "id": "49",
+      "country": "Chile",
+      "application": "CloudFlow62",
+      "responsible": "Sam Rodriguez",
+      "tier": "High"
+    },
+    {
+      "id": "50",
+      "country": "Chile",
+      "application": "EduSync13",
+      "responsible": "Rosa Rodriguez",
+      "tier": "Low"
+    }
+  ],
+  "links": [
+    {
+      "source": "2",
+      "target": "15",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "33",
+      "target": "28",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "39",
+      "target": "20",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "25",
+      "target": "11",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "11",
+      "target": "7",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "36",
+      "target": "49",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "14",
+      "target": "2",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "48",
+      "target": "4",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "24",
+      "target": "15",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "49",
+      "target": "36",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "18",
+      "target": "12",
+      "type": "Manual",
+      "frequency": "Online"
+    },
+    {
+      "source": "49",
+      "target": "9",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "33",
+      "target": "49",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "19",
+      "target": "46",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "50",
+      "target": "5",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "20",
+      "target": "5",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "3",
+      "target": "50",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "40",
+      "target": "10",
+      "type": "Manual",
+      "frequency": "T menos 15 min"
+    },
+    {
+      "source": "19",
+      "target": "20",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "7",
+      "target": "29",
+      "type": "Manual",
+      "frequency": "T menos 15 min"
+    },
+    {
+      "source": "11",
+      "target": "47",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "19",
+      "target": "26",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "6",
+      "target": "18",
+      "type": "Manual",
+      "frequency": "\u00daltimo mes"
+    },
+    {
+      "source": "16",
+      "target": "44",
+      "type": "Manual",
+      "frequency": "Online"
+    },
+    {
+      "source": "37",
+      "target": "38",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "26",
+      "target": "49",
+      "type": "Autom\u00e1tica",
+      "frequency": "\u00daltimo mes"
+    },
+    {
+      "source": "11",
+      "target": "35",
+      "type": "Manual",
+      "frequency": "T menos 15 min"
+    },
+    {
+      "source": "47",
+      "target": "22",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "34",
+      "target": "10",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "37",
+      "target": "34",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "21",
+      "target": "3",
+      "type": "Autom\u00e1tica",
+      "frequency": "\u00daltimo mes"
+    },
+    {
+      "source": "41",
+      "target": "12",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "12",
+      "target": "16",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "type": "Manual",
+      "frequency": "T menos 15 min"
+    },
+    {
+      "source": "14",
+      "target": "24",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "21",
+      "target": "15",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "44",
+      "target": "15",
+      "type": "Autom\u00e1tica",
+      "frequency": "Online"
+    },
+    {
+      "source": "25",
+      "target": "30",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "4",
+      "target": "49",
+      "type": "Autom\u00e1tica",
+      "frequency": "Online"
+    },
+    {
+      "source": "10",
+      "target": "6",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "40",
+      "target": "42",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "9",
+      "target": "26",
+      "type": "Manual",
+      "frequency": "T menos 15 min"
+    },
+    {
+      "source": "25",
+      "target": "39",
+      "type": "Manual",
+      "frequency": "Online"
+    },
+    {
+      "source": "29",
+      "target": "38",
+      "type": "Manual",
+      "frequency": "Online"
+    },
+    {
+      "source": "41",
+      "target": "35",
+      "type": "Manual",
+      "frequency": "\u00daltimo mes"
+    },
+    {
+      "source": "7",
+      "target": "36",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "32",
+      "target": "17",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "3",
+      "target": "8",
+      "type": "Manual",
+      "frequency": "Online"
+    },
+    {
+      "source": "39",
+      "target": "19",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "5",
+      "target": "44",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "45",
+      "target": "32",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "45",
+      "target": "7",
+      "type": "Manual",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "12",
+      "target": "8",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos 15 min"
+    },
+    {
+      "source": "28",
+      "target": "19",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos 15 min"
+    },
+    {
+      "source": "37",
+      "target": "28",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "44",
+      "target": "48",
+      "type": "Autom\u00e1tica",
+      "frequency": "T menos un d\u00eda"
+    },
+    {
+      "source": "11",
+      "target": "48",
+      "type": "Manual",
+      "frequency": "\u00daltimo mes"
+    }
+  ]
+}
