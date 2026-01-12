@@ -259,6 +259,7 @@ d3.json("./data.json").then(data => {
               <h3>${d.application}</h3>
               <p><strong>Country:</strong> ${d.country}</p>
               <p><strong>Responsible:</strong> ${d.responsible}</p>
+              <p><strong>Business Unit:</strong> ${d.businessUnit && d.businessUnit.length > 0 ? d.businessUnit.join(", ") : "None"}</p>
               <p><strong>Tier:</strong> ${d.tier}</p>
             `)
               .style("left", (event.pageX + 10) + "px")

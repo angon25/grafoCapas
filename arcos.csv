@@ -1,0 +1,219 @@
+id;Nodo origen;Nodo destino;Tipo relacion;frecuencia;detalle;id_flujo;descripcion_flujo;secuencia_flujo;cypher
+
+1;GestorBO;Salesforce;DIARIO;Diario;Estados de Cuenta;1;Estados de Cuenta;2;"CREATE (GestorBO)-[frecuencia:DIARIO{detalle:""Estados de Cuenta"", id_flujo:1, descripcion_flujo:""Estados de Cuenta"", secuencia_flujo:2}]->(Salesforce);"
+
+2;PortalTransaccionalOnPremise;PortalTransaccionalCloud;ONLINE;Online;Dispersi¢n de pagos;2;Dispersi¢n de pagos;3;"CREATE (PortalTransaccionalOnPremise)-[frecuencia:ONLINE{detalle:""Dispersi¢n de pagos"", id_flujo:2, descripcion_flujo:""Dispersi¢n de pagos"", secuencia_flujo:3}]->(PortalTransaccionalCloud);"
+
+3;Salesforce;SalesforceSales;ONLINE;Online;Informaci¢n de clientes;0;tbd;0;"CREATE (Salesforce)-[frecuencia:ONLINE{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(SalesforceSales);"
+
+4;BICORR;GestorBO;DIARIO;Diario;Estados de Cuenta;1;Estados de Cuenta;1;"CREATE (BICORR)-[frecuencia:DIARIO{detalle:""Estados de Cuenta"", id_flujo:1, descripcion_flujo:""Estados de Cuenta"", secuencia_flujo:1}]->(GestorBO);"
+
+5;BICORR;CoreCash;ONLINE;Online;Dispersi¢n de pagos;2;Dispersi¢n de pagos;1;"CREATE (BICORR)-[frecuencia:ONLINE{detalle:""Dispersi¢n de pagos"", id_flujo:2, descripcion_flujo:""Dispersi¢n de pagos"", secuencia_flujo:1}]->(CoreCash);"
+
+6;BICORR;CoreCash;ONLINE;Online;Informaci¢n de clientes;3;Informaci¢n de clientes;1;"CREATE (BICORR)-[frecuencia:ONLINE{detalle:""Informaci¢n de clientes"", id_flujo:3, descripcion_flujo:""Informaci¢n de clientes"", secuencia_flujo:1}]->(CoreCash);"
+
+7;CoreCash;PortalTransaccionalOnPremise;ONLINE;Online;Dispersi¢n de pagos;2;Dispersi¢n de pagos;2;"CREATE (CoreCash)-[frecuencia:ONLINE{detalle:""Dispersi¢n de pagos"", id_flujo:2, descripcion_flujo:""Dispersi¢n de pagos"", secuencia_flujo:2}]->(PortalTransaccionalOnPremise);"
+
+8;CoreCash;PortalTransaccionalOnPremise;ONLINE;Online;Informaci¢n de clientes;3;Informaci¢n de clientes;2;"CREATE (CoreCash)-[frecuencia:ONLINE{detalle:""Informaci¢n de clientes"", id_flujo:3, descripcion_flujo:""Informaci¢n de clientes"", secuencia_flujo:2}]->(PortalTransaccionalOnPremise);"
+
+9;CoreCash;ClientePJ;DIARIO;Diario;Informaci¢n de clientes;0;tbd;0;"CREATE (CoreCash)-[frecuencia:DIARIO{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ClientePJ);"
+
+10;ClientePJ;Transaccional;DIARIO;Diario;Informaci¢n de clientes;0;tbd;0;"CREATE (ClientePJ)-[frecuencia:DIARIO{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Transaccional);"
+
+11;Transaccional;PortalTransaccionalCloud;DIARIO;Diario;Informaci¢n de clientes;0;tbd;0;"CREATE (Transaccional)-[frecuencia:DIARIO{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PortalTransaccionalCloud);"
+
+12;PortalTransaccionalOnPremise;Operatyba;ONLINE;Online;Informaci¢n de clientes;3;Informaci¢n de clientes;3;"CREATE (PortalTransaccionalOnPremise)-[frecuencia:ONLINE{detalle:""Informaci¢n de clientes"", id_flujo:3, descripcion_flujo:""Informaci¢n de clientes"", secuencia_flujo:3}]->(Operatyba);"
+
+13;Operatyba;PortalTransaccionalOnPremise;ONLINE;Online;Dispersi¢n de pagos;0;tbd;0;"CREATE (Operatyba)-[frecuencia:ONLINE{detalle:""Dispersi¢n de pagos"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PortalTransaccionalOnPremise);"
+
+14;MiBancoCO;TybaCO;DIARIO;Diario;Saldos y Movimientos RF;0;tbd;0;"CREATE (MiBancoCO)-[frecuencia:DIARIO{detalle:""Saldos y Movimientos RF"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(TybaCO);"
+
+15;Datalake;TybaCO;DIARIO;Diario;Saldos y Movimientos PV;0;tbd;0;"CREATE (Datalake)-[frecuencia:DIARIO{detalle:""Saldos y Movimientos PV"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(TybaCO);"
+
+16;Operatyba;Computec;MENSUAL;Mensual;Saldos y movimientos;0;tbd;0;"CREATE (Operatyba)-[frecuencia:MENSUAL{detalle:""Saldos y movimientos"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Computec);"
+
+17;Computec;PortalClientesCO;MENSUAL;Mensual;Extractos;0;tbd;0;"CREATE (Computec)-[frecuencia:MENSUAL{detalle:""Extractos"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PortalClientesCO);"
+
+18;Neffi;PortalClientesCO;MENSUAL;Mensual;Certificados Tributarios;0;tbd;0;"CREATE (Neffi)-[frecuencia:MENSUAL{detalle:""Certificados Tributarios"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PortalClientesCO);"
+
+19;Operatyba;Neffi;MENSUAL;Mensual;Certificados Tributarios;0;tbd;0;"CREATE (Operatyba)-[frecuencia:MENSUAL{detalle:""Certificados Tributarios"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Neffi);"
+
+20;PowerBI_IntNeg;Excel_IntNeg;MENSUAL;Mensual;Informaci¢n de clientes;0;tbd;0;"CREATE (PowerBI_IntNeg)-[frecuencia:MENSUAL{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Excel_IntNeg);"
+
+21;Excel_IntNeg;ODSColombia;MENSUAL;Mensual;Informaci¢n de clientes;0;tbd;0;"CREATE (Excel_IntNeg)-[frecuencia:MENSUAL{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ODSColombia);"
+
+22;ODSColombia;WM_Lab_CO;ONLINE;Online;Informaci¢n de clientes;0;tbd;0;"CREATE (ODSColombia)-[frecuencia:ONLINE{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(WM_Lab_CO);"
+
+23;Orion;Excel_SaldosOrion;MENSUAL;Mensual;Saldos Comisionista;0;tbd;0;"CREATE (Orion)-[frecuencia:MENSUAL{detalle:""Saldos Comisionista"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Excel_SaldosOrion);"
+
+24;Orion;BICORR;DIARIO;Diario;Saldos Comisionista;0;tbd;0;"CREATE (Orion)-[frecuencia:DIARIO{detalle:""Saldos Comisionista"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(BICORR);"
+
+25;SalesforceSales;Orion;ONLINE;Online;Informaci¢n de clientes;0;tbd;0;"CREATE (SalesforceSales)-[frecuencia:ONLINE{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Orion);"
+
+26;SalesforceSales;BICORR;DIARIO;Diario;Informaci¢n de clientes;0;tbd;0;"CREATE (SalesforceSales)-[frecuencia:DIARIO{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(BICORR);"
+
+27;SalesforceSales;SIF;DIARIO;Diario;Informaci¢n de clientes;0;tbd;0;"CREATE (SalesforceSales)-[frecuencia:DIARIO{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(SIF);"
+
+28;SalesforceSales;Sifi;DIARIO;Diario;Informaci¢n de clientes;0;tbd;0;"CREATE (SalesforceSales)-[frecuencia:DIARIO{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Sifi);"
+
+29;Sifi;BICORR;DIARIO;Diario;Saldos Fiduciaria;0;tbd;0;"CREATE (Sifi)-[frecuencia:DIARIO{detalle:""Saldos Fiduciaria"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(BICORR);"
+
+30;SIF;BICORR;ONLINE;15 minutos;SyM Fondos GdA;0;tbd;0;"CREATE (SIF)-[frecuencia:ONLINE{detalle:""SyM Fondos GdA"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(BICORR);"
+
+31;Operatyba;ERP;MENSUAL;Mensual;Comisiones FPV;0;tbd;0;"CREATE (Operatyba)-[frecuencia:MENSUAL{detalle:""Comisiones FPV"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ERP);"
+
+32;Operatyba;Datalake;DIARIO;Diario;SyM  GdA FPV;0;tbd;0;"CREATE (Operatyba)-[frecuencia:DIARIO{detalle:""SyM  GdA FPV"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Datalake);"
+
+33;ODSLab;WM_Lab;DIARIO;Diario;SyM WM;0;tbd;0;"CREATE (ODSLab)-[frecuencia:DIARIO{detalle:""SyM WM"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(WM_Lab);"
+
+34;Datalake;ODSLab;DIARIO;Diario;SyM WM;0;tbd;0;"CREATE (Datalake)-[frecuencia:DIARIO{detalle:""SyM WM"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ODSLab);"
+
+35;Excel_SaldosOrion;ODSColombia;MENSUAL;Mensual;Saldos Comisionista;0;tbd;0;"CREATE (Excel_SaldosOrion)-[frecuencia:MENSUAL{detalle:""Saldos Comisionista"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ODSColombia);"
+
+36;Excel_BaseClientes;Excel_BaseConsolidada;MENSUAL;Mensual;Informaci¢n de clientes;0;tbd;0;"CREATE (Excel_BaseClientes)-[frecuencia:MENSUAL{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Excel_BaseConsolidada);"
+
+37;Excel_BaseConsolidada;ODSLab;MENSUAL;Mensual;Informaci¢n de clientes;0;tbd;0;"CREATE (Excel_BaseConsolidada)-[frecuencia:MENSUAL{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ODSLab);"
+
+38;ODSLab;WM_Lab_CL;MENSUAL;Mensual;Informaci¢n de clientes, SyM WM;0;tbd;0;"CREATE (ODSLab)-[frecuencia:MENSUAL{detalle:""Informaci¢n de clientes, SyM WM"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(WM_Lab_CL);"
+
+39;ERP;Facturador;ONLINE;Online;Emisi¢n factura a clientes / Registro cuentas x pagar proveedor;0;tbd;0;"CREATE (ERP)-[frecuencia:ONLINE{detalle:""Emisi¢n factura a clientes / Registro cuentas x pagar proveedor"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Facturador);"
+40;SPChile;ERP;DIARIO;Diario;Flujo de cartolas;98;Cartolas;0;"CREATE (SPChile)-[frecuencia:DIARIO{detalle:""Flujo de cartolas"", id_flujo:98, descripcion_flujo:""Cartolas"", secuencia_flujo:0}]->(ERP);"
+
+41;RU;Excel_BaseConsolidada;MENSUAL;Mensual;SyM Fondos, mandatos e inmobiliarios;0;tbd;0;"CREATE (RU)-[frecuencia:MENSUAL{detalle:""SyM Fondos, mandatos e inmobiliarios"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Excel_BaseConsolidada);"
+
+42;Sebra;Excel_BaseConsolidada;MENSUAL;Mensual;SyM RF, RV y Spot forward;0;tbd;0;"CREATE (Sebra)-[frecuencia:MENSUAL{detalle:""SyM RF, RV y Spot forward"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Excel_BaseConsolidada);"
+
+43;Sebra;Asientos;DIARIO;Diario;Asientos contables;0;tbd;0;"CREATE (Sebra)-[frecuencia:DIARIO{detalle:""Asientos contables"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Asientos);"
+
+44;Asientos;ReplicaSebra;DIARIO;Diario;Asientos contables;0;tbd;0;"CREATE (Asientos)-[frecuencia:DIARIO{detalle:""Asientos contables"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ReplicaSebra);"
+
+45;Asientos;ERP;DIARIO;Diario;Asientos contables;0;tbd;0;"CREATE (Asientos)-[frecuencia:DIARIO{detalle:""Asientos contables"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(ERP);"
+
+46;ODSLab;WM_Lab_PE;DIARIO;Diario;Saldos y movimientos WM;0;tbd;0;"CREATE (ODSLab)-[frecuencia:DIARIO{detalle:""Saldos y movimientos WM"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(WM_Lab_PE);"
+
+47;ODSLab;TransaccionalidadPeru;DIARIO;Diario;Saldos Multifonds;0;tbd;0;"CREATE (ODSLab)-[frecuencia:DIARIO{detalle:""Saldos Multifonds"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(TransaccionalidadPeru);"
+
+48;Consist;PAUTGWINP04;DIARIO;Diario;Saldos Consist;0;tbd;0;"CREATE (Consist)-[frecuencia:DIARIO{detalle:""Saldos Consist"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PAUTGWINP04);"
+
+49;Seriva;PAUTGWINP04;DIARIO;Diario;Vector de precios RF y RV;0;tbd;0;"CREATE (Seriva)-[frecuencia:DIARIO{detalle:""Vector de precios RF y RV"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PAUTGWINP04);"
+
+50;Savings;PAUTGWINP04;DIARIO;Diario;Saldos y Movimientos Savings;0;tbd;0;"CREATE (Savings)-[frecuencia:DIARIO{detalle:""Saldos y Movimientos Savings"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PAUTGWINP04);"
+
+51;Impacs;PAUTGWINP04;DIARIO;Diario;Saldos y Movimientos Impacs;0;tbd;0;"CREATE (Impacs)-[frecuencia:DIARIO{detalle:""Saldos y Movimientos Impacs"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PAUTGWINP04);"
+
+52;PAUTGWINP04;Datalake;DIARIO;Diario;Saldos y Movimientos consolidados WM Per£;0;tbd;0;"CREATE (PAUTGWINP04)-[frecuencia:DIARIO{detalle:""Saldos y Movimientos consolidados WM Per£"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Datalake);"
+
+53;PRIESGOBIP01;Datalake;DIARIO;Diario;Vector de precios CC;0;tbd;0;"CREATE (PRIESGOBIP01)-[frecuencia:DIARIO{detalle:""Vector de precios CC"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Datalake);"
+
+54;PPATP01;Datalake;DIARIO;Diario;Saldos Pac¡fico | Saldos y operaciones MiBanco;0;tbd;0;"CREATE (PPATP01)-[frecuencia:DIARIO{detalle:""Saldos Pac¡fico | Saldos y operaciones MiBanco"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Datalake);"
+
+55;ASBINTDB01;Datalake;DIARIO;Diario;Informaci¢n InterT24;0;tbd;0;"CREATE (ASBINTDB01)-[frecuencia:DIARIO{detalle:""Informaci¢n InterT24"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Datalake);"
+
+56;Multifonds;Datalake;DIARIO;Diario;Saldos y valor de fondos;0;tbd;0;"CREATE (Multifonds)-[frecuencia:DIARIO{detalle:""Saldos y valor de fondos"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Datalake);"
+
+57;Seriva;SP_MdK_PE;DIARIO;Diario;Saldos y valor de fondos;0;tbd;0;"CREATE (Seriva)-[frecuencia:DIARIO{detalle:""Saldos y valor de fondos"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(SP_MdK_PE);"
+
+58;SP_MdK_PE;PBIPlaneamiento;DIARIO;Diario;Saldos y valor de fondos;0;tbd;0;"CREATE (SP_MdK_PE)-[frecuencia:DIARIO{detalle:""Saldos y valor de fondos"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PBIPlaneamiento);"
+
+59;Datalake;PBIPlaneamiento;DIARIO;Diario;Informaci¢n de clientes;0;tbd;0;"CREATE (Datalake)-[frecuencia:DIARIO{detalle:""Informaci¢n de clientes"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(PBIPlaneamiento);"
+
+60;PBIPlaneamiento;Excel_Planeamiento;DIARIO;Diario;Saldos y valor de fondos x cliente;0;tbd;0;"CREATE (PBIPlaneamiento)-[frecuencia:DIARIO{detalle:""Saldos y valor de fondos x cliente"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(Excel_Planeamiento);"
+
+61;Excel_Planeamiento;WebClientesPE;DIARIO;Diario;Saldos y valor de fondos x cliente;0;tbd;0;"CREATE (Excel_Planeamiento)-[frecuencia:DIARIO{detalle:""Saldos y valor de fondos x cliente"", id_flujo:0, descripcion_flujo:""tbd"", secuencia_flujo:0}]->(WebClientesPE);"
+
+62;BloombergCO;ReporteadorClientesLocales;DIARIO;Diario;Portafolios | Activos operados;1;tbd;1;"CREATE (BloombergCO)-[frecuencia:DIARIO{detalle:""Portafolios | Activos operados"", id_flujo:1, descripcion_flujo:""tbd"", secuencia_flujo:1}]->(ReporteadorClientesLocales);"
+
+63;CorInterno;ReporteadorClientesLocales;DIARIO;Diario;Portafolios | Activos operados;1;tbd;1;"CREATE (CorInterno)-[frecuencia:DIARIO{detalle:""Portafolios | Activos operados"", id_flujo:1, descripcion_flujo:""tbd"", secuencia_flujo:1}]->(ReporteadorClientesLocales);"
+
+64;BloombergCO;ReporteadorATFADR;DIARIO;Diario;EMSX y Blotter RFI;2;tbd;1;"CREATE (BloombergCO)-[frecuencia:DIARIO{detalle:""EMSX y Blotter RFI"", id_flujo:2, descripcion_flujo:""tbd"", secuencia_flujo:1}]->(ReporteadorATFADR);"
+
+65;FidessaCO;DailyManagement;DIARIO;Diario;Fidessa Trades y Fidessa Folios;3;tbd;1;"CREATE (FidessaCO)-[frecuencia:DIARIO{detalle:""Fidessa Trades y Fidessa Folios"", id_flujo:3, descripcion_flujo:""tbd"", secuencia_flujo:1}]->(DailyManagement);"
+
+66;DailyManagement;RepProformaClientesMdK;DIARIO;Diario;;2;tbd;2;"CREATE (DailyManagement)-[frecuencia:DIARIO{detalle:"""", id_flujo:2, descripcion_flujo:""tbd"", secuencia_flujo:2}]->(RepProformaClientesMdK);"
+
+67;DailyManagement;RepEjecutivaMdk;DIARIO;Diario;;2;tbd;2;"CREATE (DailyManagement)-[frecuencia:DIARIO{detalle:"""", id_flujo:2, descripcion_flujo:""tbd"", secuencia_flujo:2}]->(RepEjecutivaMdk);"
+
+68;ReporteadorClientesLocales;RepProformaClientesMdK;DIARIO;Diario;;1;tbd;2;"CREATE (ReporteadorClientesLocales)-[frecuencia:DIARIO{detalle:"""", id_flujo:1, descripcion_flujo:""tbd"", secuencia_flujo:2}]->(RepProformaClientesMdK);"
+
+69;ReporteadorClientesLocales;RepEjecutivaMdk;DIARIO;Diario;;2;tbd;2;"CREATE (ReporteadorClientesLocales)-[frecuencia:DIARIO{detalle:"""", id_flujo:2, descripcion_flujo:""tbd"", secuencia_flujo:2}]->(RepEjecutivaMdk);"
+
+70;ReporteadorETFADR;RepProformaClientesMdK;DIARIO;Diario;;1;tbd;2;"CREATE (ReporteadorETFADR)-[frecuencia:DIARIO{detalle:"""", id_flujo:1, descripcion_flujo:""tbd"", secuencia_flujo:2}]->(RepProformaClientesMdK);"
+
+71;ReporteadorETFADR;RepEjecutivaMdk;DIARIO;Diario;;2;tbd;2;"CREATE (ReporteadorETFADR)-[frecuencia:DIARIO{detalle:"""", id_flujo:2, descripcion_flujo:""tbd"", secuencia_flujo:2}]->(RepEjecutivaMdk);"
+
+72;Excel_Instrumentos;Mantenedor;DIARIO;Diario;Entrega de distribuci¢n masiva de instrumentos;99;tbd;1;"CREATE (Excel_Instrumentos)-[frecuencia:DIARIO{detalle:""Entrega de distribuci¢n masiva de instrumentos"", id_flujo:99, descripcion_flujo:""tbd"", secuencia_flujo:1}]->(Mantenedor);"
+
+73;Mantenedor;RU;DIARIO;Diario;Instrumentos actualizados;99;tbd;2;"CREATE (Mantenedor)-[frecuencia:DIARIO{detalle:""Instrumentos actualizados"", id_flujo:99, descripcion_flujo:""tbd"", secuencia_flujo:2}]->(RU);"
+
+74;PershingCL;SGCartolas;DIARIO;Diario;Origen de corretaje y asesor¡a;98;Cartolas;1;"CREATE (PershingCL)-[frecuencia:DIARIO{detalle:""Origen de corretaje y asesor¡a"", id_flujo:98, descripcion_flujo:""Cartolas"", secuencia_flujo:1}]->(SGCartolas);"
+
+75;SGCartolas;RU;DIARIO;Diario;Generaci¢n de Cartolas;98;Cartolas;2;"CREATE (SGCartolas)-[frecuencia:DIARIO{detalle:""Generaci¢n de Cartolas"", id_flujo:98, descripcion_flujo:""Cartolas"", secuencia_flujo:2}]->(RU);"
+
+76;RU;Cartolas;DIARIO;Diario;Informaci¢n de cartolas;98;Cartolas;3;"CREATE (RU)-[frecuencia:DIARIO{detalle:""Informaci¢n de cartolas"", id_flujo:98, descripcion_flujo:""Cartolas"", secuencia_flujo:3}]->(Cartolas);"
+
+77;Cartolas;Sendgrid;DIARIO;Diario;Entrega de cartolas a clientes via email;98;Cartolas;4;"CREATE (Cartolas)-[frecuencia:DIARIO{detalle:""Entrega de cartolas a clientes via email"", id_flujo:98, descripcion_flujo:""Cartolas"", secuencia_flujo:4}]->(Sendgrid);"
+
+78;Excel_Sobreventa;GestionBCS;DIARIO;Diario;;97;Cuadratura custodia;1;
+
+79;Excel_SaldosLinea;GestionBCS;DIARIO;Diario;;97;Cuadratura custodia;2;
+80;;;;;De core cash a portal autogesti¢n NNFF;;;;
+
+81;;;;;De tyba a core cash;;;;
+
+82;;;;;"De bicorr a core cash: Informaci¢n de cliente para crearlo en core cash. Tambi‚n para conocer su estado. Integraciones en l¡nea, est n consultando directamente a la BD.
+
+Descarto la integraci¢n de dispersi¢n de pagos";;;;
+
+83;;;;;;;;;
+
+84;;;;;;;;;
+
+85;;;;;De GDP_EC pasa a Plataforma Banqueros para Agrupaciones (Eventos de Capital) ;;;;
+
+;;;;;Orion comisionista;Portafolios, contabilizaci¢n de operaciones, ;;;
+
+;;;;;Orion corporacion;;;;
+
+;;;;;Prometeo a Orion;Informaci¢n de saldos de comisiones. Las comisiones en Prometeo son las de posiciones propias. Stored procedures;;;
+
+;;;;;Oracle ERP a Orion;¨?;;;
+
+;;;;;Orion a Prometeo;WS informaci¢n del comercial. No viaja info de cliente;;;
+
+;;;;;CorInterno a Orion;CorInterno crea las operaciones en la BVC y las env¡a a Orion. Stored procedure. ;;;
+
+;;;;;CorInterno a BVC;Cea operaciones de Bolsa. ;;;
+
+;;;;;BVC a Agora Gateway;;;;
+
+;;;;;Agora Gateway a Prometeo;;;;
+
+;;;;;Prometeo a Bolsa;Se conecta por servicios de complementaci¢n. ;;;
+
+;;;;;Prometeo;Informaci¢n de negociaciones de operaci¢n propia (Bolsa o Banrep - SEN)  ;;;
+
+;;;;;Orion a Bolsa;Batch de operaciones, carga manual. ;;;
+
+;;;;;Salesforce Sales a todos los core;;;;
+
+;;;;;Servidor bogweb014 - Servicio gestor sincronizaci¢n de clientes;;;;
+
+;;;;;Calypso;Core de la corporaci¢n financiera;;;
+
+;;;;;ZWT es el portal de sifi, que no es transsaccional. Se llama Portal Inmobiliario;;;;
+
+;;;;;Siif a core cash;;;;
+
+;;;;;Core cash a siif;;;;
+
+;;;;;Sif a Orion;Creaci¢n de productos y comisiones de comerciales;;;
+
+;;;;;Orion a Sif;Titulos que operan en Orion. Orion se conecta con el mercado. Credicorp tiene varios productos. Uno de esos productos es t¡tulos de fondos. ;;;
+
+;;;;;sif a sifi;Valor de unidad, para complementar informes normativos;;;
+
+;;;;;id 13 debe ir al core cash;;;;
+
+;;;;;ETL Colombia;;;;
+
+;;;;;sif a ERP;Hay manuales y autom ticas;;;

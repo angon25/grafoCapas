@@ -1,0 +1,176 @@
+id;Proyecto;label;nombre;nombre2;codigoAplicacion;contacto;emailContacto;responsable;pais;negocio;formato;tecnologia;dataOwner;cypher
+Salesforce;Fenix;FRONT;Salesforce experience cloud;;CD00162;Jaime Soto;jsoto;;Colombia;[GdP,GdA,MdK];Aplicación;SaaS externo;;"CREATE (Salesforce:FRONT{nombre:""Salesforce experience cloud"", codigoAplicacion:""CD00162"", contacto:""Jaime Soto"", emailContacto:""jsoto"", pais:""Colombia"", negocio:""[GdP,GdA,MdK]"", formato:""Aplicación""}),"
+
+PortalTransaccionalCloud;no;FRONT;Portal Transaccional Cloud;Canal Digital Corporativo;CD00454;Hernando Diaz;hdiaz;Capital Lab;Colombia;[Tesorer¡a];Aplicación;Azure TCD;;"CREATE (PortalTransaccionalCloud:FRONT{nombre:""Portal Transaccional Cloud"", nombre2:""Canal Digital Corporativo"", codigoAplicacion:""CD00454"", contacto:""Hernando Diaz"", emailContacto:""hdiaz"", responsable:""Capital Lab"", pais:""Colombia"", negocio:""[Tesorer¡a]"", formato:""Aplicación""}),"
+
+GestorBO;no;FRONT;Gestor BO;;CD00162;Jaime Soto;jsoto;;Colombia;[GdP,GdA,MdK];Aplicación;;;"CREATE (GestorBO:FRONT{nombre:""Gestor BO"", codigoAplicacion:""CD00162"", contacto:""Jaime Soto"", emailContacto:""jsoto"", pais:""Colombia"", negocio:""[GdP,GdA,MdK]"", formato:""Aplicación""}),"
+
+PortalTransaccionalOnPremise;no;FRONT;Portal Transaccional onPremise;;OP06178;;;;Colombia;[Tesorer¡a];Aplicación;;;"CREATE (PortalTransaccionalOnPremise:FRONT{nombre:""Portal Transaccional onPremise"", codigoAplicacion:""OP06178"", pais:""Colombia"", negocio:""[Tesorer¡a]"", formato:""Aplicación""}),"
+
+TybaCO;no;FRONT;Tyba Colombia;;CD19348;Jefferson Mu¤oz;jlmunoz;;Colombia;[Afluente];Aplicación;;;"CREATE (TybaCO:FRONT{nombre:""Tyba Colombia"", codigoAplicacion:""CD19348"", contacto:""Jefferson Mu¤oz"", emailContacto:""jlmunoz"", pais:""Colombia"", negocio:""[Afluente]"", formato:""Aplicación""}),"
+
+PortalClientesCO;no;FRONT;Portal de Clientes Colombia;;OP00177;;;;Colombia;[GdP,GdA,MdK];Aplicación;;;"CREATE (PortalClientesCO:FRONT{nombre:""Portal de Clientes Colombia"", codigoAplicacion:""OP00177"", pais:""Colombia"", negocio:""[GdP,GdA,MdK]"", formato:""Aplicación""}),"
+
+WM_Lab_CO;no;FRONT;Portal WM Colombia;credicorpcapitaldigital.com;CD00352;;;Capital Lab;Colombia;[WM];Aplicación;;;"CREATE (WM_Lab_CO:FRONT{nombre:""Portal WM Colombia"", nombre2:""credicorpcapitaldigital.com"", codigoAplicacion:""CD00352"", responsable:""Capital Lab"", pais:""Colombia"", negocio:""[WM]"", formato:""Aplicación""}),"
+
+WM_Lab_CL;no;FRONT;Portal WM Chile;credicorpcapitaldigital.com;CD00352;;;Capital Lab;Chile;[WM];Aplicación;;;"CREATE (WM_Lab_CL:FRONT{nombre:""Portal WM Chile"", nombre2:""credicorpcapitaldigital.com"", codigoAplicacion:""CD00352"", responsable:""Capital Lab"", pais:""Chile"", negocio:""[WM]"", formato:""Aplicación""}),"
+
+WM_Lab_PE;no;FRONT;Portal WM Perú;credicorpcapitaldigital.com;CD00352;;;Capital Lab;Colombia;[WM];Aplicación;;;"CREATE (WM_Lab_PE:FRONT{nombre:""Portal WM Perú"", nombre2:""credicorpcapitaldigital.com"", codigoAplicacion:""CD00352"", responsable:""Capital Lab"", pais:""Colombia"", negocio:""[WM]"", formato:""Aplicación""}),"
+
+Transaccional;no;INTERMEDIO;BD Transaccional;;CD00454;;;Capital Lab;Colombia;[Tesorer¡a];BD;;;"CREATE (Transaccional:INTERMEDIO{nombre:""BD Transaccional"", codigoAplicacion:""CD00454"", responsable:""Capital Lab"", pais:""Colombia"", negocio:""[Tesorer¡a]"", formato:""BD""}),"
+
+BICORR;no;INTERMEDIO;Bicorr;;;;;;Colombia;;BD;;;"CREATE (BICORR:INTERMEDIO{nombre:""Bicorr"", pais:""Colombia"", formato:""BD""}),"
+
+ClientePJ;no;INTERMEDIO;Cliente PJ Colombia;;;;;Capital Lab;Colombia;[Tesorer¡a];Excel;;;"CREATE (ClientePJ:INTERMEDIO{nombre:""Cliente PJ Colombia"", responsable:""Capital Lab"", pais:""Colombia"", negocio:""[Tesorer¡a]"", formato:""Excel""});"
+
+CoreCash;no;INTERMEDIO;Core Cash;;OP06493;;;;Colombia;[Tesorer¡a];Aplicación;;;"CREATE (CoreCash:INTERMEDIO{nombre:""Core Cash"", codigoAplicacion:""OP06493"", pais:""Colombia"", negocio:""[Tesorer¡a]"", formato:""Aplicación""});"
+
+Datalake;no;INTERMEDIO;Datalake;;CD20481;Ivan Mejia;ivanmejia;Data Management;Regional;[GdP,GdA,MdK, Clientes];Plataforma;;;"CREATE (Datalake:INTERMEDIO{nombre:""Datalake"", codigoAplicacion:""CD20481"", contacto:""Ivan Mejia"", emailContacto:""ivanmejia"", responsable:""Data Management"", pais:""Regional"", negocio:""[GdP,GdA,MdK, Clientes]"", formato:""Plataforma""});"
+
+Computec;no;INTERMEDIO;Computec;;CD00455;;;;Colombia;;Aplicación;;;"CREATE (Computec:INTERMEDIO{nombre:""Computec"", codigoAplicacion:""CD00455"", pais:""Colombia"", formato:""Aplicación""});"
+
+Neffi;no;INTERMEDIO;Neffi;;OP00431;;;;Colombia;;Aplicación;;;"CREATE (Neffi:INTERMEDIO{nombre:""Neffi"", codigoAplicacion:""OP00431"", pais:""Colombia"", formato:""Aplicación""});"
+
+Excel_IntNeg;no;INTERMEDIO;Excel Consolidado de Inteligencia de Negocios;;;Valentina Escarraga;vescarraga;Capital Lab;Colombia;[Inteligencia de Negocios];Excel;;;"CREATE (Excel_IntNeg:INTERMEDIO{nombre:""Excel Consolidado de Inteligencia de Negocios"", contacto:""Valentina Escarraga"", emailContacto:""vescarraga"", responsable:""Capital Lab"", pais:""Colombia"", negocio:""[Inteligencia de Negocios]"", formato:""Excel""});"
+
+SalesforceSales;no;ORIGEN;Salesforce Sales;;CD20267;Jaime Soto;jsoto;;Colombia;[GdP,GdA,MdK];Aplicación;;;"CREATE (SalesforceSales:ORIGEN{nombre:""Salesforce Sales"", codigoAplicacion:""CD20267"", contacto:""Jaime Soto"", emailContacto:""jsoto"", pais:""Colombia"", negocio:""[GdP,GdA,MdK]"", formato:""Aplicación""});"
+
+Operatyba;no;ORIGEN;Operatyba;;CD00455;Joselin Guerra;jguerra;;Colombia;[Afluente];Aplicación;;;"CREATE (Operatyba:ORIGEN{nombre:""Operatyba"", codigoAplicacion:""CD00455"", contacto:""Joselin Guerra"", emailContacto:""jguerra"", pais:""Colombia"", negocio:""[Afluente]"", formato:""Aplicación""});"
+MiBancoCO;no;ORIGEN;MiBanco;;;;;Externo;Colombia;;Aplicación;;;"CREATE (MiBancoCO:ORIGEN{nombre:""MiBanco"", responsable:""Externo"", pais:""Colombia"", formato:""Aplicación""});"
+
+ODSColombia;no;INTERMEDIO;ODSColombia;;;;;Capital Lab;Colombia;[WM];BD;;;"CREATE (ODSColombia:INTERMEDIO{nombre:""ODSColombia"", responsable:""Capital Lab"", pais:""Colombia"", negocio:""[WM]"", formato:""BD""});"
+
+ODSLab;no;INTERMEDIO;ODS Capital Lab;;;;;Capital Lab;Perú;[WM];BD;;;"CREATE (ODSLab:INTERMEDIO{nombre:""ODS Capital Lab"", responsable:""Capital Lab"", pais:""Perú"", negocio:""[WM]"", formato:""BD""});"
+
+PowerBI_IntNeg;no;ORIGEN;Reporte Power BI de Inteligencia de Negocios;;;Valentina Escarraga;vescarraga;;Colombia;[Inteligencia de Negocios];Power BI;;;"CREATE (PowerBI_IntNeg:ORIGEN{nombre:""Reporte Power BI de Inteligencia de Negocios"", contacto:""Valentina Escarraga"", emailContacto:""vescarraga"", pais:""Colombia"", negocio:""[Inteligencia de Negocios]"", formato:""Power BI""});"
+
+Orion;no;ORIGEN;Orion;;OP04175;Carolina Acevedo;cacevedo;;Colombia;[GdP,GdA,MdK];Aplicación;;;"CREATE (Orion:ORIGEN{nombre:""Orion"", codigoAplicacion:""OP04175"", contacto:""Carolina Acevedo"", emailContacto:""cacevedo"", pais:""Colombia"", negocio:""[GdP,GdA,MdK]"", formato:""Aplicación""});"
+
+Excel_SaldosOrion;no;INTERMEDIO;Excel Saldos Mensuales Orion;;;Valentina Escarraga;vescarraga;Capital Lab;Colombia;;Excel;;;"CREATE (Excel_SaldosOrion:INTERMEDIO{nombre:""Excel Saldos Mensuales Orion"", contacto:""Valentina Escarraga"", emailContacto:""vescarraga"", responsable:""Capital Lab"", pais:""Colombia"", formato:""Excel""});"
+
+SIF;no;ORIGEN;SIF;;OP12189;;;;Colombia;[GdA];Aplicación;;;"CREATE (SIF:ORIGEN{nombre:""SIF"", codigoAplicacion:""OP12189"", pais:""Colombia"", negocio:""[GdA]"", formato:""Aplicación""});"
+
+Sifi;no;ORIGEN;Sifi;;OP12190;;;;Colombia;;Aplicación;;;"CREATE (Sifi:ORIGEN{nombre:""Sifi"", codigoAplicacion:""OP12190"", pais:""Colombia"", formato:""Aplicación""});"
+
+ERP;no;ORIGEN;ERP;;;Claudia Ayulo;claudiaayulo;;Regional;;Aplicación;;;"CREATE (ERP:ORIGEN{nombre:""ERP"", contacto:""Claudia Ayulo"", emailContacto:""claudiaayulo"", pais:""Regional"", formato:""Aplicación""});"
+
+Excel_BaseClientes;no;ORIGEN;Base de Clientes;;;Valentina Escarraga;vescarraga;Capital Lab;Chile;;Excel;;;"CREATE (Excel_BaseClientes:ORIGEN{nombre:""Base de Clientes"", contacto:""Valentina Escarraga"", emailContacto:""vescarraga"", responsable:""Capital Lab"", pais:""Chile"", formato:""Excel""});"
+
+Excel_BaseConsolidada;no;ORIGEN;Base Consolidada;;;Valentina Escarraga;vescarraga;Capital Lab;Chile;;Excel;;;"CREATE (Excel_BaseConsolidada:ORIGEN{nombre:""Base Consolidada"", contacto:""Valentina Escarraga"", emailContacto:""vescarraga"", responsable:""Capital Lab"", pais:""Chile"", formato:""Excel""});"
+
+RU;Fenix;INTERMEDIO;Repositorio Unico;;;Ignacio Valenzuela;ivalenzuela;CC Chile;Chile;;BD SQL Server;IaaS Privado;;"CREATE (RU:INTERMEDIO{nombre:""Repositorio Unico"", contacto:""Ignacio Valenzuela"", emailContacto:""ivalenzuela"", responsable:""CC Chile"", pais:""Chile"", formato:""BD SQL Server""});"
+
+Sebra;Fenix;ORIGEN;Sebra - BCS;;CD21204;Milena Leon Vasquez;mleon;;Chile;;Aplicación;IaaS Privado;;"CREATE (Sebra:ORIGEN{nombre:""Sebra - BCS"", codigoAplicacion:""CD21204"", contacto:""Milena Leon Vasquez"", emailContacto:""mleon"", pais:""Chile"", formato:""Aplicación""});"
+
+ReplicaSebra;Fenix;INTERMEDIO;R‚plica Sebra;;;Jose Marin;jmarin;;Chile;;BD SQL Server;IaaS Privado;;"CREATE (ReplicaSebra:INTERMEDIO{nombre:""R‚plica Sebra"", contacto:""Jose Marin"", emailContacto:""jmarin"", pais:""Chile"", formato:""BD SQL Server""});"
+
+Asientos;no;ORIGEN;Transformador de Asientos Contables;;OP00536;Leyla Peralta Navia;lperalta;;Chile;;Aplicación;;;"CREATE (Asientos:ORIGEN{nombre:""Transformador de Asientos Contables"", codigoAplicacion:""OP00536"", contacto:""Leyla Peralta Navia"", emailContacto:""lperalta"", pais:""Chile"", formato:""Aplicación""});"
+
+SPChile;no;ORIGEN;Sharepoint Chile;;;Claudia Ayulo;claudiaayulo;;Chile;;Sharepoint;;;"CREATE (SPChile:ORIGEN{nombre:""Sharepoint Chile"", contacto:""Claudia Ayulo"", emailContacto:""claudiaayulo"", pais:""Chile"", formato:""Sharepoint""});"
+
+Facturador;no;FRONT;Facturador Electr¢nico - BCS;;;Claudia Ayulo;claudiaayulo;;Chile;;Aplicación;;;"CREATE (Facturador:FRONT{nombre:""Facturador Electr¢nico - BCS"", contacto:""Claudia Ayulo"", emailContacto:""claudiaayulo"", pais:""Chile"", formato:""Aplicación""});"
+
+TransaccionalidadPeru;no;FRONT;Portal Transaccionalidad Perú;;CD21418;Nestor Ballesteros;nballesteros;Capital Lab;Colombia;;Aplicación;;;"CREATE (TransaccionalidadPeru:FRONT{nombre:""Portal Transaccionalidad Perú"", codigoAplicacion:""CD21418"", contacto:""Nestor Ballesteros"", emailContacto:""nballesteros"", responsable:""Capital Lab"", pais:""Colombia"", formato:""Aplicación""});"
+
+Seriva;no;ORIGEN;Seriva - Suite MDC;;OP08342;;;BCP;Perú;;Aplicación;;;"CREATE (Seriva:ORIGEN{nombre:""Seriva - Suite MDC"", codigoAplicacion:""OP08342"", responsable:""BCP"", pais:""Perú"", formato:""Aplicación""});"
+
+Quipu;no;ORIGEN;Sistema Integrado de Bolsa QUIPU;;OP07013;;;;Perú;;Aplicación;;;"CREATE (Quipu:ORIGEN{nombre:""Sistema Integrado de Bolsa QUIPU"", codigoAplicacion:""OP07013"", pais:""Perú"", formato:""Aplicación""});"
+
+Consist;no;ORIGEN;Consist;;;;;BCP;Perú;;Aplicación;;;"CREATE (Consist:ORIGEN{nombre:""Consist"", responsable:""BCP"", pais:""Perú"", formato:""Aplicación""});"
+
+PAUTGWINP04;no;ORIGEN;Servidor PAUTGWINP04;;;;;BCP;Perú;;File server;;;"CREATE (PAUTGWINP04:ORIGEN{nombre:""Servidor PAUTGWINP04"", responsable:""BCP"", pais:""Perú"", formato:""File server""});"
+
+Savings;no;ORIGEN;Savings;;;;;BCP;Perú;;Aplicación;;;"CREATE (Savings:ORIGEN{nombre:""Savings"", responsable:""BCP"", pais:""Perú"", formato:""Aplicación""});"
+
+Impacs;no;ORIGEN;Impacs;;;;;BCP;Perú;;Aplicación;;;"CREATE (Impacs:ORIGEN{nombre:""Impacs"", responsable:""BCP"", pais:""Perú"", formato:""Aplicación""});"
+
+PRIESGOBIP01;no;ORIGEN;Servidor PRIESGOBIP01;;;;;BCP;Perú;;File server;;;"CREATE (PRIESGOBIP01:ORIGEN{nombre:""Servidor PRIESGOBIP01"", responsable:""BCP"", pais:""Perú"", formato:""File server""});"
+
+PPATP01;no;ORIGEN;Servidor PPATP01;;;;;BCP;Perú;;File server;;;"CREATE (PPATP01:ORIGEN{nombre:""Servidor PPATP01"", responsable:""BCP"", pais:""Perú"", formato:""File server""});"
+
+ASBINTDB01;no;ORIGEN;Servidor ASBINTDB01;;;;;BCP;Perú;;File server;;;"CREATE (ASBINTDB01:ORIGEN{nombre:""Servidor ASBINTDB01"", responsable:""BCP"", pais:""Perú"", formato:""File server""});"
+
+Multifonds;no;ORIGEN;Multifonds;;OP00335;;;;Regional;;Aplicación;;;"CREATE (Multifonds:ORIGEN{nombre:""Multifonds"", codigoAplicacion:""OP00335"", pais:""Regional"", formato:""Aplicación""});"
+
+PBIPlaneamiento;no;INTERMEDIO;Reporte Planeamiento;;;Eddy Sanchez Figueroa;eddysanchezf;Planeamiento;Perú;;Power BI;;;"CREATE (PBIPlaneamiento:INTERMEDIO{nombre:""Reporte Planeamiento"", contacto:""Eddy Sanchez Figueroa"", emailContacto:""eddysanchezf"", responsable:""Planeamiento"", pais:""Perú"", formato:""Power BI""});"
+
+Excel_Planeamiento;no;INTERMEDIO;Excel consolidado de Planeamiento;;;Eddy Sanchez Figueroa;eddysanchezf;Planeamiento;Perú;;Excel;;;"CREATE (Excel_Planeamiento:INTERMEDIO{nombre:""Excel consolidado de Planeamiento"", contacto:""Eddy Sanchez Figueroa"", emailContacto:""eddysanchezf"", responsable:""Planeamiento"", pais:""Perú"", formato:""Excel""});"
+
+WebClientesPE;no;FRONT;Web de Clientes Perú;;OP00335;Eddy Sanchez Figueroa;eddysanchezf;Planeamiento;Perú;;Aplicación;;;"CREATE (WebClientesPE:FRONT{nombre:""Web de Clientes Perú"", codigoAplicacion:""OP00335"", contacto:""Eddy Sanchez Figueroa"", emailContacto:""eddysanchezf"", responsable:""Planeamiento"", pais:""Perú"", formato:""Aplicación""});"
+
+SP_MdK_PE;no;INTERMEDIO;Sharepoint MdK Perú;;CD21377;Eddy Sanchez Figueroa;eddysanchezf;Planeamiento;Perú;;Sharepoint;;;"CREATE (SP_MdK_PE:INTERMEDIO{nombre:""Sharepoint MdK Perú"", codigoAplicacion:""CD21377"", contacto:""Eddy Sanchez Figueroa"", emailContacto:""eddysanchezf"", responsable:""Planeamiento"", pais:""Perú"", formato:""Sharepoint""});"
+
+BloombergCO;no;ORIGEN;Bloomberg Colombia;;CD00135;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;SaaS externo;;"CREATE (BloombergCO:ORIGEN{nombre:""Bloomberg Colombia"", codigoAplicacion:""CD00135"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+
+FidessaCO;no;ORIGEN;Fidessa Colombia;;CD20158;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;SaaS externo;;"CREATE (FidessaCO:ORIGEN{nombre:""Fidessa Colombia"", codigoAplicacion:""CD20158"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+
+CorInterno;no;ORIGEN;Core de Complementaci¢n;CorInterno;OP12147;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK, GdP];Excel;OnPremise local;;"CREATE (CorInterno:ORIGEN{nombre:""Core de Complementaci¢n"", nombre2:""CorInterno"", codigoAplicacion:""OP12147"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK, GdP]"", formato:""Excel""});"
+
+ReporteadorClientesLocales;no;INTERMEDIO;Reporteador clientes locales;;;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;Macro Excel;;"CREATE (ReporteadorClientesLocales:INTERMEDIO{nombre:""Reporteador clientes locales"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+
+ReporteadorETFADR;no;INTERMEDIO;Reporteador ETFs y ADRs;;;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;Macro Excel;;"CREATE (ReporteadorETFADR:INTERMEDIO{nombre:""Reporteador ETFs y ADRs"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+
+DailyManagement;no;INTERMEDIO;Daily management;;;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;Macro Excel;;"CREATE (DailyManagement:INTERMEDIO{nombre:""Daily management"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+
+PlanillaComisiones;no;INTERMEDIO;Planilla Comisiones;;;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;Macro Excel;;"CREATE (PlanillaComisiones:INTERMEDIO{nombre:""Planilla Comisiones"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+
+RepProformaClientesMdK;no;FRONT;Reporter¡a proforma clientes MdK;;;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;Email;;"CREATE (RepProformaClientesMdK:FRONT{nombre:""Reporter¡a proforma clientes MdK"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+ 
+RepEjecutivaMdk;no;FRONT;Reporter¡a ejecutiva MdK;;;Miguel Madrid Uribe;mmadrid@credicorpcapital.com;MdK;Colombia;[MdK];Excel;Email;;"CREATE (RepEjecutivaMdk:FRONT{nombre:""Reporter¡a ejecutiva MdK"", contacto:""Miguel Madrid Uribe"", emailContacto:""mmadrid@credicorpcapital.com"", responsable:""MdK"", pais:""Colombia"", negocio:""[MdK]"", formato:""Excel""});"
+
+Excel_Sobreventa;Fenix;INTERMEDIO;Excel Sobreventa;;;Cristian Ojeda;cojeda;CC Chile;Chile;[WM];Excel;Macro Excel;Ronald Vela;"CREATE (Excel_Sobreventa:INTERMEDIO{nombre:""Excel Sobreventa"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM]"", formato:""Excel""});"
+
+Excel_SaldosLinea;Fenix;INTERMEDIO;Excel Saldos en l¡nea;;;Cristian Ojeda;cojeda;CC Chile;Chile;[WM];Excel;Macro Excel;Ronald Vela;"CREATE (Excel_SaldosLinea:INTERMEDIO{nombre:""Excel Saldos en l¡nea"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM]"", formato:""Excel""});"
+
+DCV;Fenix;ORIGEN;DCV;Dep¢sito Central de Valores;;Cristian Ojeda;cojeda;CC Chile;Chile;[WM];Archivo plano;Externo;;"CREATE (DCV:ORIGEN{nombre:""DCV"", nombre2:""Dep¢sito Central de Valores"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM]"", formato:""Archivo plano""});"
+
+GestionBCS;Fenix;INTERMEDIO;Gesti¢n BCS;;OP00263;Cristian Ojeda;cojeda;CC Chile;Chile;[WM];BD SQL Server;IaaS Privado;;"CREATE (GestionBCS:INTERMEDIO{nombre:""Gesti¢n BCS"", codigoAplicacion:""OP00263"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM]"", formato:""BD SQL Server""});"
+
+RiskAmerica;Fenix;INTERMEDIO;Conversor de archivos RiskAmerica;;;Cristian Ojeda;cojeda;CC Chile;Chile;[WM];BD SQL Server;IaaS Privado;;"CREATE (RiskAmerica:INTERMEDIO{nombre:""Conversor de archivos RiskAmerica"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM]"", formato:""BD SQL Server""});"
+
+SigaCRM;Fenix;ORIGEN;Siga CRM;;;;;;;;Aplicación;IaaS Privado;;"CREATE (SigaCRM:ORIGEN{nombre:""Siga CRM"", formato:""Aplicación""});"
+
+CAPDCV;Fenix;ORIGEN;CAPDCV;;;;;;;;Aplicación;IaaS Privado;;"CREATE (CAPDCV:ORIGEN{nombre:""CAPDCV"", formato:""Aplicación""});"
+
+PershingCL;Fenix;ORIGEN;Pershing Chile;NetX 360 (Pershing) Chile;CD20238;Cristian Ojeda;cojeda;CC Chile;Chile;[MdK, GdP];Aplicación;IaaS Privado;;"CREATE (PershingCL:ORIGEN{nombre:""Pershing Chile"", nombre2:""NetX 360 (Pershing) Chile"", codigoAplicacion:""CD20238"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[MdK, GdP]"", formato:""Aplicación""});"
+
+Excel_Instrumentos;Fenix;ORIGEN;Excel Distribuci¢n Masiva de Instrumentos;;;Cristian Ojeda;cojeda;CC Chile;Chile;[WM, Inteligencia Comercial];Excel;Macro Excel;;"CREATE (Excel_Instrumentos:ORIGEN{nombre:""Excel Distribuci¢n Masiva de Instrumentos"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM, Inteligencia Comercial]"", formato:""Excel""});"
+
+Mantenedor;Fenix;ORIGEN;Mantenedor de Instrumentos;;OP16005;Ignacio Valenzuela;ivalenzuela;CC Chile;Chile;[WM, Inteligencia Comercial];Aplicación;IaaS Privado;;"CREATE (Mantenedor:ORIGEN{nombre:""Mantenedor de Instrumentos"", codigoAplicacion:""OP16005"", contacto:""Ignacio Valenzuela"", emailContacto:""ivalenzuela"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM, Inteligencia Comercial]"", formato:""Aplicación""});"
+
+MaestraInstrumentos;Fenix;ORIGEN;BD Maestra de Instrumentos;;;Ignacio Valenzuela;ivalenzuela;CC Chile;Chile;[WM, Inteligencia Comercial];BD SQL Server;IaaS Privado;;"CREATE (MaestraInstrumentos:ORIGEN{nombre:""BD Maestra de Instrumentos"", contacto:""Ignacio Valenzuela"", emailContacto:""ivalenzuela"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM, Inteligencia Comercial]"", formato:""BD SQL Server""});"
+
+Cartolas;Fenix;ORIGEN;Sistema de Cartolas;;OP16003;Ignacio Valenzuela;ivalenzuela;CC Chile;Chile;[WM, Inteligencia Comercial];Aplicación;IaaS Privado;;"CREATE (Cartolas:ORIGEN{nombre:""Sistema de Cartolas"", codigoAplicacion:""OP16003"", contacto:""Ignacio Valenzuela"", emailContacto:""ivalenzuela"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM, Inteligencia Comercial]"", formato:""Aplicación""});"
+
+Sendgrid;Fenix;FRONT;Sendgrid;;CD00018;;;;;;Aplicación;SaaS externo;;"CREATE (Sendgrid:FRONT{nombre:""Sendgrid"", codigoAplicacion:""CD00018"", formato:""Aplicación""});"
+
+RD;Fenix;ORIGEN;RD;RD Core Fondos;OP19013;Ignacio Valenzuela;ivalenzuela;CC Chile;Chile;[WM, Inteligencia Comercial];Aplicación;IaaS Privado;;"CREATE (RD:ORIGEN{nombre:""RD"", nombre2:""RD Core Fondos"", codigoAplicacion:""OP19013"", contacto:""Ignacio Valenzuela"", emailContacto:""ivalenzuela"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM, Inteligencia Comercial]"", formato:""Aplicación""});"
+
+SGCartolas;Fenix;ORIGEN;Sistema de Gesti¢n de Cartolas;;OP16231;;;;;;Aplicación;IaaS Privado;;"CREATE (SGCartolas:ORIGEN{nombre:""Sistema de Gesti¢n de Cartolas"", codigoAplicacion:""OP16231"", formato:""Aplicación""});"
+
+TybaCL;Fenix;FRONT;Tyba Chile;;CD00021;;;;;;Aplicación;SaaS externo;;"CREATE (TybaCL:FRONT{nombre:""Tyba Chile"", codigoAplicacion:""CD00021"", formato:""Aplicación""});"
+
+Excel_RVCP;Fenix;INTERMEDIO;Rentabilidad y Valor Cuota Promedio;;;Cristian Ojeda;cojeda;CC Chile;Chile;[MdK, GdP];Excel;Macro Excel;;"CREATE (Excel_RVCP:INTERMEDIO{nombre:""Rentabilidad y Valor Cuota Promedio"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[MdK, GdP]"", formato:""Excel""});"
+
+CMF;Fenix;INTERMEDIO;CMF;Comis¢n para el Mercado Financiero;;;;;;;Aplicación;SaaS externo;;"CREATE (CMF:INTERMEDIO{nombre:""CMF"", nombre2:""Comis¢n para el Mercado Financiero"", formato:""Aplicación""});"
+
+Conciliacion;Fenix;INTERMEDIO;Conciliaci¢n Internacional;;;;;;;;Aplicación;IaaS Privado;;"CREATE (Conciliacion:INTERMEDIO{nombre:""Conciliaci¢n Internacional"", formato:""Aplicación""});"
+
+Sigic;Fenix;ORIGEN;Sigic;;;Ignacio Valenzuela;ivalenzuela;CC Chile;Chile;[WM, Inteligencia Comercial];Aplicación;IaaS Privado;;"CREATE (Sigic:ORIGEN{nombre:""Sigic"", contacto:""Ignacio Valenzuela"", emailContacto:""ivalenzuela"", responsable:""CC Chile"", pais:""Chile"", negocio:""[WM, Inteligencia Comercial]"", formato:""Aplicación""});"
+
+PortalClientesCL;Fenix;FRONT;Portal de Clientes Chile;;OP00177;Tatiana Zegarra;tzegarrac;TCD;Chile;[GdP,GdA,MdK];Aplicación;Azure TCD;;"CREATE (PortalClientesCL:FRONT{nombre:""Portal de Clientes Chile"", codigoAplicacion:""OP00177"", contacto:""Tatiana Zegarra"", emailContacto:""tzegarrac"", responsable:""TCD"", pais:""Chile"", negocio:""[GdP,GdA,MdK]"", formato:""Aplicación""});"
+
+PortalClientesCLOLD;Fenix;FRONT;Portal de Clientes Chile Antiguo;;;;;;;;Aplicación;IaaS Privado;;"CREATE (PortalClientesCLOLD:FRONT{nombre:""Portal de Clientes Chile Antiguo"", formato:""Aplicación""});"
+
+BancoCentralChile;Fenix;ORIGEN;Banco Central de Chile;;--;;;;;;Aplicación;SaaS externo;;"CREATE (BancoCentralChile:ORIGEN{nombre:""Banco Central de Chile"", codigoAplicacion:""--"", formato:""Aplicación""});"
+
+BanquerosChile;Fenix;INTERMEDIO;Plataforma Banqueros;;--;Cristian Ojeda;cojeda;CC Chile;Chile;[MdK, GdP];BD SQL Server;IaaS Privado;;"CREATE (BanquerosChile:INTERMEDIO{nombre:""Plataforma Banqueros"", codigoAplicacion:""--"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[MdK, GdP]"", formato:""BD SQL Server""});"
+
+SCA;Fenix;INTERMEDIO;SCA;Sistema Contenedor de Aplicaciones;;Cristian Ojeda;cojeda;CC Chile;Chile;[MdK, GdP];Aplicación;IaaS Privado;;"CREATE (SCA:INTERMEDIO{nombre:""SCA"", nombre2:""Sistema Contenedor de Aplicaciones"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[MdK, GdP]"", formato:""Aplicación""});"
+
+ValorCuotaSebra;Fenix;ORIGEN;Valor Cuota Sebra;;;Cristian Ojeda;cojeda;CC Chile;Chile;[MdK, GdP];Excel;Macro Excel;;"CREATE (ValorCuotaSebra:ORIGEN{nombre:""Valor Cuota Sebra"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[MdK, GdP]"", formato:""Excel""});"
+
+ConciliacionesCustodia;Fenix;INTERMEDIO;Conciliaciones Custodia;;;Cristian Ojeda;cojeda;CC Chile;Chile;[MdK, GdP];BD SQL Server;IaaS Privado;;"CREATE (ConciliacionesCustodia:INTERMEDIO{nombre:""Conciliaciones Custodia"", contacto:""Cristian Ojeda"", emailContacto:""cojeda"", responsable:""CC Chile"", pais:""Chile"", negocio:""[MdK, GdP]"", formato:""BD SQL Server""});"
+
+BizagiCL;Fenix;;Bizagi Workflows Chile;;;Rommel Alejandro Oyanguren Moller;royanguren;CC Chile;Chile;[MdK, GdP];Aplicación;IaaS Privado;;"CREATE (BizagiCL:{nombre:""Bizagi Workflows Chile"", contacto:""Rommel Alejandro Oyanguren Moller"", emailContacto:""royanguren"", responsable:""CC Chile"", pais:""Chile"", negocio:""[MdK, GdP]"", formato:""Aplicación""});"
+
