@@ -19,10 +19,9 @@
       "format": "Aplicación",
       "technology": "SaaS externo",
       "data_owner": "",
-      "cypher_query": "CREATE (Salesforce:FRONT{nombre:\"Salesforce experience cloud\", codigoAplicacion:\"CD00162\", contacto:\"Jaime Soto\", emailContacto:\"jsoto\", pais:\"Colombia\", negocio:\"[GdP,GdA,MdK]\", formato:\"Aplicación\"}),",
       "application": "Salesforce experience cloud",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "PortalTransaccionalCloud",
@@ -41,10 +40,9 @@
       "format": "Aplicación",
       "technology": "Azure TCD",
       "data_owner": "",
-      "cypher_query": "CREATE (PortalTransaccionalCloud:FRONT{nombre:\"Portal Transaccional Cloud\", nombre2:\"Canal Digital Corporativo\", codigoAplicacion:\"CD00454\", contacto:\"Hernando Diaz\", emailContacto:\"hdiaz\", responsable:\"Capital Lab\", pais:\"Colombia\", negocio:\"[Tesorer¡a]\", formato:\"Aplicación\"}),",
       "application": "Portal Transaccional Cloud",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "GestorBO",
@@ -65,10 +63,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (GestorBO:FRONT{nombre:\"Gestor BO\", codigoAplicacion:\"CD00162\", contacto:\"Jaime Soto\", emailContacto:\"jsoto\", pais:\"Colombia\", negocio:\"[GdP,GdA,MdK]\", formato:\"Aplicación\"}),",
       "application": "Gestor BO",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "PortalTransaccionalOnPremise",
@@ -87,10 +84,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (PortalTransaccionalOnPremise:FRONT{nombre:\"Portal Transaccional onPremise\", codigoAplicacion:\"OP06178\", pais:\"Colombia\", negocio:\"[Tesorer¡a]\", formato:\"Aplicación\"}),",
       "application": "Portal Transaccional onPremise",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "TybaCO",
@@ -109,10 +105,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (TybaCO:FRONT{nombre:\"Tyba Colombia\", codigoAplicacion:\"CD19348\", contacto:\"Jefferson Mu¤oz\", emailContacto:\"jlmunoz\", pais:\"Colombia\", negocio:\"[Afluente]\", formato:\"Aplicación\"}),",
       "application": "Tyba Colombia",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "PortalClientesCO",
@@ -133,10 +128,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (PortalClientesCO:FRONT{nombre:\"Portal de Clientes Colombia\", codigoAplicacion:\"OP00177\", pais:\"Colombia\", negocio:\"[GdP,GdA,MdK]\", formato:\"Aplicación\"}),",
       "application": "Portal de Clientes Colombia",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "WM_Lab_CO",
@@ -155,10 +149,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (WM_Lab_CO:FRONT{nombre:\"Portal WM Colombia\", nombre2:\"credicorpcapitaldigital.com\", codigoAplicacion:\"CD00352\", responsable:\"Capital Lab\", pais:\"Colombia\", negocio:\"[WM]\", formato:\"Aplicación\"}),",
       "application": "Portal WM Colombia",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "WM_Lab_CL",
@@ -177,10 +170,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (WM_Lab_CL:FRONT{nombre:\"Portal WM Chile\", nombre2:\"credicorpcapitaldigital.com\", codigoAplicacion:\"CD00352\", responsable:\"Capital Lab\", pais:\"Chile\", negocio:\"[WM]\", formato:\"Aplicación\"}),",
       "application": "Portal WM Chile",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "WM_Lab_PE",
@@ -199,10 +191,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (WM_Lab_PE:FRONT{nombre:\"Portal WM Perú\", nombre2:\"credicorpcapitaldigital.com\", codigoAplicacion:\"CD00352\", responsable:\"Capital Lab\", pais:\"Colombia\", negocio:\"[WM]\", formato:\"Aplicación\"}),",
       "application": "Portal WM Perú",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "Transaccional",
@@ -221,7 +212,6 @@
       "format": "BD",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Transaccional:INTERMEDIO{nombre:\"BD Transaccional\", codigoAplicacion:\"CD00454\", responsable:\"Capital Lab\", pais:\"Colombia\", negocio:\"[Tesorer¡a]\", formato:\"BD\"}),",
       "application": "BD Transaccional",
       "type": "BD",
       "tier": "Mid"
@@ -241,7 +231,6 @@
       "format": "BD",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (BICORR:INTERMEDIO{nombre:\"Bicorr\", pais:\"Colombia\", formato:\"BD\"}),",
       "application": "Bicorr",
       "type": "BD",
       "tier": "Mid"
@@ -263,7 +252,6 @@
       "format": "Excel",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (ClientePJ:INTERMEDIO{nombre:\"Cliente PJ Colombia\", responsable:\"Capital Lab\", pais:\"Colombia\", negocio:\"[Tesorer¡a]\", formato:\"Excel\"});",
       "application": "Cliente PJ Colombia",
       "type": "Excel",
       "tier": "Mid"
@@ -285,7 +273,6 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (CoreCash:INTERMEDIO{nombre:\"Core Cash\", codigoAplicacion:\"OP06493\", pais:\"Colombia\", negocio:\"[Tesorer¡a]\", formato:\"Aplicación\"});",
       "application": "Core Cash",
       "type": "Aplicación",
       "tier": "Mid"
@@ -310,7 +297,6 @@
       "format": "Plataforma",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Datalake:INTERMEDIO{nombre:\"Datalake\", codigoAplicacion:\"CD20481\", contacto:\"Ivan Mejia\", emailContacto:\"ivanmejia\", responsable:\"Data Management\", pais:\"Regional\", negocio:\"[GdP,GdA,MdK, Clientes]\", formato:\"Plataforma\"});",
       "application": "Datalake",
       "type": "Plataforma",
       "tier": "Mid"
@@ -330,7 +316,6 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Computec:INTERMEDIO{nombre:\"Computec\", codigoAplicacion:\"CD00455\", pais:\"Colombia\", formato:\"Aplicación\"});",
       "application": "Computec",
       "type": "Aplicación",
       "tier": "Mid"
@@ -350,7 +335,6 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Neffi:INTERMEDIO{nombre:\"Neffi\", codigoAplicacion:\"OP00431\", pais:\"Colombia\", formato:\"Aplicación\"});",
       "application": "Neffi",
       "type": "Aplicación",
       "tier": "Mid"
@@ -372,7 +356,6 @@
       "format": "Excel",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Excel_IntNeg:INTERMEDIO{nombre:\"Excel Consolidado de Inteligencia de Negocios\", contacto:\"Valentina Escarraga\", emailContacto:\"vescarraga\", responsable:\"Capital Lab\", pais:\"Colombia\", negocio:\"[Inteligencia de Negocios]\", formato:\"Excel\"});",
       "application": "Excel Consolidado de Inteligencia de Negocios",
       "type": "Excel",
       "tier": "Mid"
@@ -396,10 +379,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (SalesforceSales:ORIGEN{nombre:\"Salesforce Sales\", codigoAplicacion:\"CD20267\", contacto:\"Jaime Soto\", emailContacto:\"jsoto\", pais:\"Colombia\", negocio:\"[GdP,GdA,MdK]\", formato:\"Aplicación\"});",
       "application": "Salesforce Sales",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Operatyba",
@@ -418,10 +400,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Operatyba:ORIGEN{nombre:\"Operatyba\", codigoAplicacion:\"CD00455\", contacto:\"Joselin Guerra\", emailContacto:\"jguerra\", pais:\"Colombia\", negocio:\"[Afluente]\", formato:\"Aplicación\"});",
       "application": "Operatyba",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "MiBancoCO",
@@ -438,10 +419,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (MiBancoCO:ORIGEN{nombre:\"MiBanco\", responsable:\"Externo\", pais:\"Colombia\", formato:\"Aplicación\"});",
       "application": "MiBanco",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "ODSColombia",
@@ -460,7 +440,6 @@
       "format": "BD",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (ODSColombia:INTERMEDIO{nombre:\"ODSColombia\", responsable:\"Capital Lab\", pais:\"Colombia\", negocio:\"[WM]\", formato:\"BD\"});",
       "application": "ODSColombia",
       "type": "BD",
       "tier": "Mid"
@@ -482,7 +461,6 @@
       "format": "BD",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (ODSLab:INTERMEDIO{nombre:\"ODS Capital Lab\", responsable:\"Capital Lab\", pais:\"Perú\", negocio:\"[WM]\", formato:\"BD\"});",
       "application": "ODS Capital Lab",
       "type": "BD",
       "tier": "Mid"
@@ -504,10 +482,9 @@
       "format": "Power BI",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (PowerBI_IntNeg:ORIGEN{nombre:\"Reporte Power BI de Inteligencia de Negocios\", contacto:\"Valentina Escarraga\", emailContacto:\"vescarraga\", pais:\"Colombia\", negocio:\"[Inteligencia de Negocios]\", formato:\"Power BI\"});",
       "application": "Reporte Power BI de Inteligencia de Negocios",
       "type": "Power BI",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Orion",
@@ -528,10 +505,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Orion:ORIGEN{nombre:\"Orion\", codigoAplicacion:\"OP04175\", contacto:\"Carolina Acevedo\", emailContacto:\"cacevedo\", pais:\"Colombia\", negocio:\"[GdP,GdA,MdK]\", formato:\"Aplicación\"});",
       "application": "Orion",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Excel_SaldosOrion",
@@ -548,7 +524,6 @@
       "format": "Excel",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Excel_SaldosOrion:INTERMEDIO{nombre:\"Excel Saldos Mensuales Orion\", contacto:\"Valentina Escarraga\", emailContacto:\"vescarraga\", responsable:\"Capital Lab\", pais:\"Colombia\", formato:\"Excel\"});",
       "application": "Excel Saldos Mensuales Orion",
       "type": "Excel",
       "tier": "Mid"
@@ -570,10 +545,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (SIF:ORIGEN{nombre:\"SIF\", codigoAplicacion:\"OP12189\", pais:\"Colombia\", negocio:\"[GdA]\", formato:\"Aplicación\"});",
       "application": "SIF",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Sifi",
@@ -590,10 +564,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Sifi:ORIGEN{nombre:\"Sifi\", codigoAplicacion:\"OP12190\", pais:\"Colombia\", formato:\"Aplicación\"});",
       "application": "Sifi",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "ERP",
@@ -610,10 +583,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (ERP:ORIGEN{nombre:\"ERP\", contacto:\"Claudia Ayulo\", emailContacto:\"claudiaayulo\", pais:\"Regional\", formato:\"Aplicación\"});",
       "application": "ERP",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Excel_BaseClientes",
@@ -630,10 +602,9 @@
       "format": "Excel",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Excel_BaseClientes:ORIGEN{nombre:\"Base de Clientes\", contacto:\"Valentina Escarraga\", emailContacto:\"vescarraga\", responsable:\"Capital Lab\", pais:\"Chile\", formato:\"Excel\"});",
       "application": "Base de Clientes",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Excel_BaseConsolidada",
@@ -650,10 +621,9 @@
       "format": "Excel",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Excel_BaseConsolidada:ORIGEN{nombre:\"Base Consolidada\", contacto:\"Valentina Escarraga\", emailContacto:\"vescarraga\", responsable:\"Capital Lab\", pais:\"Chile\", formato:\"Excel\"});",
       "application": "Base Consolidada",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "RU",
@@ -670,7 +640,6 @@
       "format": "BD SQL Server",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (RU:INTERMEDIO{nombre:\"Repositorio Unico\", contacto:\"Ignacio Valenzuela\", emailContacto:\"ivalenzuela\", responsable:\"CC Chile\", pais:\"Chile\", formato:\"BD SQL Server\"});",
       "application": "Repositorio Unico",
       "type": "BD SQL Server",
       "tier": "Mid"
@@ -690,16 +659,15 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (Sebra:ORIGEN{nombre:\"Sebra - BCS\", codigoAplicacion:\"CD21204\", contacto:\"Milena Leon Vasquez\", emailContacto:\"mleon\", pais:\"Chile\", formato:\"Aplicación\"});",
       "application": "Sebra - BCS",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "ReplicaSebra",
       "project": "Fenix",
       "layer": "INTERMEDIO",
-      "name": "R‚plica Sebra",
+      "name": "Réplica Sebra",
       "name_secondary": "",
       "app_code": "",
       "contact": "Jose Marin",
@@ -710,8 +678,7 @@
       "format": "BD SQL Server",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (ReplicaSebra:INTERMEDIO{nombre:\"R‚plica Sebra\", contacto:\"Jose Marin\", emailContacto:\"jmarin\", pais:\"Chile\", formato:\"BD SQL Server\"});",
-      "application": "R‚plica Sebra",
+      "application": "Réplica Sebra",
       "type": "BD SQL Server",
       "tier": "Mid"
     },
@@ -730,10 +697,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Asientos:ORIGEN{nombre:\"Transformador de Asientos Contables\", codigoAplicacion:\"OP00536\", contacto:\"Leyla Peralta Navia\", emailContacto:\"lperalta\", pais:\"Chile\", formato:\"Aplicación\"});",
       "application": "Transformador de Asientos Contables",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "SPChile",
@@ -750,10 +716,9 @@
       "format": "Sharepoint",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (SPChile:ORIGEN{nombre:\"Sharepoint Chile\", contacto:\"Claudia Ayulo\", emailContacto:\"claudiaayulo\", pais:\"Chile\", formato:\"Sharepoint\"});",
       "application": "Sharepoint Chile",
       "type": "Sharepoint",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Facturador",
@@ -770,10 +735,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Facturador:FRONT{nombre:\"Facturador Electr¢nico - BCS\", contacto:\"Claudia Ayulo\", emailContacto:\"claudiaayulo\", pais:\"Chile\", formato:\"Aplicación\"});",
       "application": "Facturador Electr¢nico - BCS",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "TransaccionalidadPeru",
@@ -790,10 +754,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (TransaccionalidadPeru:FRONT{nombre:\"Portal Transaccionalidad Perú\", codigoAplicacion:\"CD21418\", contacto:\"Nestor Ballesteros\", emailContacto:\"nballesteros\", responsable:\"Capital Lab\", pais:\"Colombia\", formato:\"Aplicación\"});",
       "application": "Portal Transaccionalidad Perú",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "Seriva",
@@ -810,10 +773,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Seriva:ORIGEN{nombre:\"Seriva - Suite MDC\", codigoAplicacion:\"OP08342\", responsable:\"BCP\", pais:\"Perú\", formato:\"Aplicación\"});",
       "application": "Seriva - Suite MDC",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Quipu",
@@ -830,10 +792,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Quipu:ORIGEN{nombre:\"Sistema Integrado de Bolsa QUIPU\", codigoAplicacion:\"OP07013\", pais:\"Perú\", formato:\"Aplicación\"});",
       "application": "Sistema Integrado de Bolsa QUIPU",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Consist",
@@ -850,10 +811,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Consist:ORIGEN{nombre:\"Consist\", responsable:\"BCP\", pais:\"Perú\", formato:\"Aplicación\"});",
       "application": "Consist",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "PAUTGWINP04",
@@ -870,10 +830,9 @@
       "format": "File server",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (PAUTGWINP04:ORIGEN{nombre:\"Servidor PAUTGWINP04\", responsable:\"BCP\", pais:\"Perú\", formato:\"File server\"});",
       "application": "Servidor PAUTGWINP04",
       "type": "File server",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Savings",
@@ -890,10 +849,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Savings:ORIGEN{nombre:\"Savings\", responsable:\"BCP\", pais:\"Perú\", formato:\"Aplicación\"});",
       "application": "Savings",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Impacs",
@@ -910,10 +868,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Impacs:ORIGEN{nombre:\"Impacs\", responsable:\"BCP\", pais:\"Perú\", formato:\"Aplicación\"});",
       "application": "Impacs",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "PRIESGOBIP01",
@@ -930,10 +887,9 @@
       "format": "File server",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (PRIESGOBIP01:ORIGEN{nombre:\"Servidor PRIESGOBIP01\", responsable:\"BCP\", pais:\"Perú\", formato:\"File server\"});",
       "application": "Servidor PRIESGOBIP01",
       "type": "File server",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "PPATP01",
@@ -950,10 +906,9 @@
       "format": "File server",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (PPATP01:ORIGEN{nombre:\"Servidor PPATP01\", responsable:\"BCP\", pais:\"Perú\", formato:\"File server\"});",
       "application": "Servidor PPATP01",
       "type": "File server",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "ASBINTDB01",
@@ -970,10 +925,9 @@
       "format": "File server",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (ASBINTDB01:ORIGEN{nombre:\"Servidor ASBINTDB01\", responsable:\"BCP\", pais:\"Perú\", formato:\"File server\"});",
       "application": "Servidor ASBINTDB01",
       "type": "File server",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Multifonds",
@@ -990,10 +944,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Multifonds:ORIGEN{nombre:\"Multifonds\", codigoAplicacion:\"OP00335\", pais:\"Regional\", formato:\"Aplicación\"});",
       "application": "Multifonds",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "PBIPlaneamiento",
@@ -1010,7 +963,6 @@
       "format": "Power BI",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (PBIPlaneamiento:INTERMEDIO{nombre:\"Reporte Planeamiento\", contacto:\"Eddy Sanchez Figueroa\", emailContacto:\"eddysanchezf\", responsable:\"Planeamiento\", pais:\"Perú\", formato:\"Power BI\"});",
       "application": "Reporte Planeamiento",
       "type": "Power BI",
       "tier": "Mid"
@@ -1030,7 +982,6 @@
       "format": "Excel",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (Excel_Planeamiento:INTERMEDIO{nombre:\"Excel consolidado de Planeamiento\", contacto:\"Eddy Sanchez Figueroa\", emailContacto:\"eddysanchezf\", responsable:\"Planeamiento\", pais:\"Perú\", formato:\"Excel\"});",
       "application": "Excel consolidado de Planeamiento",
       "type": "Excel",
       "tier": "Mid"
@@ -1050,10 +1001,9 @@
       "format": "Aplicación",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (WebClientesPE:FRONT{nombre:\"Web de Clientes Perú\", codigoAplicacion:\"OP00335\", contacto:\"Eddy Sanchez Figueroa\", emailContacto:\"eddysanchezf\", responsable:\"Planeamiento\", pais:\"Perú\", formato:\"Aplicación\"});",
       "application": "Web de Clientes Perú",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "SP_MdK_PE",
@@ -1070,7 +1020,6 @@
       "format": "Sharepoint",
       "technology": "",
       "data_owner": "",
-      "cypher_query": "CREATE (SP_MdK_PE:INTERMEDIO{nombre:\"Sharepoint MdK Perú\", codigoAplicacion:\"CD21377\", contacto:\"Eddy Sanchez Figueroa\", emailContacto:\"eddysanchezf\", responsable:\"Planeamiento\", pais:\"Perú\", formato:\"Sharepoint\"});",
       "application": "Sharepoint MdK Perú",
       "type": "Sharepoint",
       "tier": "Mid"
@@ -1092,10 +1041,9 @@
       "format": "Excel",
       "technology": "SaaS externo",
       "data_owner": "",
-      "cypher_query": "CREATE (BloombergCO:ORIGEN{nombre:\"Bloomberg Colombia\", codigoAplicacion:\"CD00135\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Bloomberg Colombia",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "FidessaCO",
@@ -1114,10 +1062,9 @@
       "format": "Excel",
       "technology": "SaaS externo",
       "data_owner": "",
-      "cypher_query": "CREATE (FidessaCO:ORIGEN{nombre:\"Fidessa Colombia\", codigoAplicacion:\"CD20158\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Fidessa Colombia",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "CorInterno",
@@ -1137,10 +1084,9 @@
       "format": "Excel",
       "technology": "OnPremise local",
       "data_owner": "",
-      "cypher_query": "CREATE (CorInterno:ORIGEN{nombre:\"Core de Complementaci¢n\", nombre2:\"CorInterno\", codigoAplicacion:\"OP12147\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK, GdP]\", formato:\"Excel\"});",
       "application": "Core de Complementaci¢n",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "ReporteadorClientesLocales",
@@ -1159,7 +1105,6 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "",
-      "cypher_query": "CREATE (ReporteadorClientesLocales:INTERMEDIO{nombre:\"Reporteador clientes locales\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Reporteador clientes locales",
       "type": "Excel",
       "tier": "Mid"
@@ -1181,7 +1126,6 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "",
-      "cypher_query": "CREATE (ReporteadorETFADR:INTERMEDIO{nombre:\"Reporteador ETFs y ADRs\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Reporteador ETFs y ADRs",
       "type": "Excel",
       "tier": "Mid"
@@ -1203,7 +1147,6 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "",
-      "cypher_query": "CREATE (DailyManagement:INTERMEDIO{nombre:\"Daily management\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Daily management",
       "type": "Excel",
       "tier": "Mid"
@@ -1225,7 +1168,6 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "",
-      "cypher_query": "CREATE (PlanillaComisiones:INTERMEDIO{nombre:\"Planilla Comisiones\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Planilla Comisiones",
       "type": "Excel",
       "tier": "Mid"
@@ -1247,30 +1189,9 @@
       "format": "Excel",
       "technology": "Email",
       "data_owner": "",
-      "cypher_query": "CREATE (RepProformaClientesMdK:FRONT{nombre:\"Reporter¡a proforma clientes MdK\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Reporter¡a proforma clientes MdK",
       "type": "Excel",
-      "tier": "Mid"
-    },
-    {
-      "id": " ",
-      "project": null,
-      "layer": null,
-      "name": null,
-      "name_secondary": null,
-      "app_code": null,
-      "contact": null,
-      "email": null,
-      "responsible": null,
-      "country": null,
-      "businessUnit": [],
-      "format": null,
-      "technology": null,
-      "data_owner": null,
-      "cypher_query": null,
-      "application": null,
-      "type": null,
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "RepEjecutivaMdk",
@@ -1289,10 +1210,9 @@
       "format": "Excel",
       "technology": "Email",
       "data_owner": "",
-      "cypher_query": "CREATE (RepEjecutivaMdk:FRONT{nombre:\"Reporter¡a ejecutiva MdK\", contacto:\"Miguel Madrid Uribe\", emailContacto:\"mmadrid@credicorpcapital.com\", responsable:\"MdK\", pais:\"Colombia\", negocio:\"[MdK]\", formato:\"Excel\"});",
       "application": "Reporter¡a ejecutiva MdK",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "Excel_Sobreventa",
@@ -1311,7 +1231,6 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "Ronald Vela",
-      "cypher_query": "CREATE (Excel_Sobreventa:INTERMEDIO{nombre:\"Excel Sobreventa\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM]\", formato:\"Excel\"});",
       "application": "Excel Sobreventa",
       "type": "Excel",
       "tier": "Mid"
@@ -1333,7 +1252,6 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "Ronald Vela",
-      "cypher_query": "CREATE (Excel_SaldosLinea:INTERMEDIO{nombre:\"Excel Saldos en l¡nea\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM]\", formato:\"Excel\"});",
       "application": "Excel Saldos en l¡nea",
       "type": "Excel",
       "tier": "Mid"
@@ -1355,10 +1273,9 @@
       "format": "Archivo plano",
       "technology": "Externo",
       "data_owner": "",
-      "cypher_query": "CREATE (DCV:ORIGEN{nombre:\"DCV\", nombre2:\"Dep¢sito Central de Valores\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM]\", formato:\"Archivo plano\"});",
       "application": "DCV",
       "type": "Archivo plano",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "GestionBCS",
@@ -1377,7 +1294,6 @@
       "format": "BD SQL Server",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (GestionBCS:INTERMEDIO{nombre:\"Gesti¢n BCS\", codigoAplicacion:\"OP00263\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM]\", formato:\"BD SQL Server\"});",
       "application": "Gesti¢n BCS",
       "type": "BD SQL Server",
       "tier": "Mid"
@@ -1399,7 +1315,6 @@
       "format": "BD SQL Server",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (RiskAmerica:INTERMEDIO{nombre:\"Conversor de archivos RiskAmerica\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM]\", formato:\"BD SQL Server\"});",
       "application": "Conversor de archivos RiskAmerica",
       "type": "BD SQL Server",
       "tier": "Mid"
@@ -1419,10 +1334,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (SigaCRM:ORIGEN{nombre:\"Siga CRM\", formato:\"Aplicación\"});",
       "application": "Siga CRM",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "CAPDCV",
@@ -1439,10 +1353,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (CAPDCV:ORIGEN{nombre:\"CAPDCV\", formato:\"Aplicación\"});",
       "application": "CAPDCV",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "PershingCL",
@@ -1462,10 +1375,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (PershingCL:ORIGEN{nombre:\"Pershing Chile\", nombre2:\"NetX 360 (Pershing) Chile\", codigoAplicacion:\"CD20238\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[MdK, GdP]\", formato:\"Aplicación\"});",
       "application": "Pershing Chile",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Excel_Instrumentos",
@@ -1485,10 +1397,9 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "",
-      "cypher_query": "CREATE (Excel_Instrumentos:ORIGEN{nombre:\"Excel Distribuci¢n Masiva de Instrumentos\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM, Inteligencia Comercial]\", formato:\"Excel\"});",
       "application": "Excel Distribuci¢n Masiva de Instrumentos",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Mantenedor",
@@ -1508,10 +1419,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (Mantenedor:ORIGEN{nombre:\"Mantenedor de Instrumentos\", codigoAplicacion:\"OP16005\", contacto:\"Ignacio Valenzuela\", emailContacto:\"ivalenzuela\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM, Inteligencia Comercial]\", formato:\"Aplicación\"});",
       "application": "Mantenedor de Instrumentos",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "MaestraInstrumentos",
@@ -1531,10 +1441,9 @@
       "format": "BD SQL Server",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (MaestraInstrumentos:ORIGEN{nombre:\"BD Maestra de Instrumentos\", contacto:\"Ignacio Valenzuela\", emailContacto:\"ivalenzuela\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM, Inteligencia Comercial]\", formato:\"BD SQL Server\"});",
       "application": "BD Maestra de Instrumentos",
       "type": "BD SQL Server",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Cartolas",
@@ -1554,10 +1463,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (Cartolas:ORIGEN{nombre:\"Sistema de Cartolas\", codigoAplicacion:\"OP16003\", contacto:\"Ignacio Valenzuela\", emailContacto:\"ivalenzuela\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM, Inteligencia Comercial]\", formato:\"Aplicación\"});",
       "application": "Sistema de Cartolas",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "Sendgrid",
@@ -1574,10 +1482,9 @@
       "format": "Aplicación",
       "technology": "SaaS externo",
       "data_owner": "",
-      "cypher_query": "CREATE (Sendgrid:FRONT{nombre:\"Sendgrid\", codigoAplicacion:\"CD00018\", formato:\"Aplicación\"});",
       "application": "Sendgrid",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "RD",
@@ -1597,10 +1504,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (RD:ORIGEN{nombre:\"RD\", nombre2:\"RD Core Fondos\", codigoAplicacion:\"OP19013\", contacto:\"Ignacio Valenzuela\", emailContacto:\"ivalenzuela\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM, Inteligencia Comercial]\", formato:\"Aplicación\"});",
       "application": "RD",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "SGCartolas",
@@ -1617,10 +1523,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (SGCartolas:ORIGEN{nombre:\"Sistema de Gesti¢n de Cartolas\", codigoAplicacion:\"OP16231\", formato:\"Aplicación\"});",
       "application": "Sistema de Gesti¢n de Cartolas",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "TybaCL",
@@ -1637,10 +1542,9 @@
       "format": "Aplicación",
       "technology": "SaaS externo",
       "data_owner": "",
-      "cypher_query": "CREATE (TybaCL:FRONT{nombre:\"Tyba Chile\", codigoAplicacion:\"CD00021\", formato:\"Aplicación\"});",
       "application": "Tyba Chile",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "Excel_RVCP",
@@ -1660,7 +1564,6 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "",
-      "cypher_query": "CREATE (Excel_RVCP:INTERMEDIO{nombre:\"Rentabilidad y Valor Cuota Promedio\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[MdK, GdP]\", formato:\"Excel\"});",
       "application": "Rentabilidad y Valor Cuota Promedio",
       "type": "Excel",
       "tier": "Mid"
@@ -1680,7 +1583,6 @@
       "format": "Aplicación",
       "technology": "SaaS externo",
       "data_owner": "",
-      "cypher_query": "CREATE (CMF:INTERMEDIO{nombre:\"CMF\", nombre2:\"Comis¢n para el Mercado Financiero\", formato:\"Aplicación\"});",
       "application": "CMF",
       "type": "Aplicación",
       "tier": "Mid"
@@ -1689,7 +1591,7 @@
       "id": "Conciliacion",
       "project": "Fenix",
       "layer": "INTERMEDIO",
-      "name": "Conciliaci¢n Internacional",
+      "name": "Conciliación Internacional",
       "name_secondary": "",
       "app_code": "",
       "contact": "",
@@ -1700,8 +1602,7 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (Conciliacion:INTERMEDIO{nombre:\"Conciliaci¢n Internacional\", formato:\"Aplicación\"});",
-      "application": "Conciliaci¢n Internacional",
+      "application": "Conciliación Internacional",
       "type": "Aplicación",
       "tier": "Mid"
     },
@@ -1723,10 +1624,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (Sigic:ORIGEN{nombre:\"Sigic\", contacto:\"Ignacio Valenzuela\", emailContacto:\"ivalenzuela\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[WM, Inteligencia Comercial]\", formato:\"Aplicación\"});",
       "application": "Sigic",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "PortalClientesCL",
@@ -1747,10 +1647,9 @@
       "format": "Aplicación",
       "technology": "Azure TCD",
       "data_owner": "",
-      "cypher_query": "CREATE (PortalClientesCL:FRONT{nombre:\"Portal de Clientes Chile\", codigoAplicacion:\"OP00177\", contacto:\"Tatiana Zegarra\", emailContacto:\"tzegarrac\", responsable:\"TCD\", pais:\"Chile\", negocio:\"[GdP,GdA,MdK]\", formato:\"Aplicación\"});",
       "application": "Portal de Clientes Chile",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "PortalClientesCLOLD",
@@ -1767,10 +1666,9 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (PortalClientesCLOLD:FRONT{nombre:\"Portal de Clientes Chile Antiguo\", formato:\"Aplicación\"});",
       "application": "Portal de Clientes Chile Antiguo",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "High"
     },
     {
       "id": "BancoCentralChile",
@@ -1787,10 +1685,9 @@
       "format": "Aplicación",
       "technology": "SaaS externo",
       "data_owner": "",
-      "cypher_query": "CREATE (BancoCentralChile:ORIGEN{nombre:\"Banco Central de Chile\", codigoAplicacion:\"--\", formato:\"Aplicación\"});",
       "application": "Banco Central de Chile",
       "type": "Aplicación",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "BanquerosChile",
@@ -1810,7 +1707,6 @@
       "format": "BD SQL Server",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (BanquerosChile:INTERMEDIO{nombre:\"Plataforma Banqueros\", codigoAplicacion:\"--\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[MdK, GdP]\", formato:\"BD SQL Server\"});",
       "application": "Plataforma Banqueros",
       "type": "BD SQL Server",
       "tier": "Mid"
@@ -1833,7 +1729,6 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (SCA:INTERMEDIO{nombre:\"SCA\", nombre2:\"Sistema Contenedor de Aplicaciones\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[MdK, GdP]\", formato:\"Aplicación\"});",
       "application": "SCA",
       "type": "Aplicación",
       "tier": "Mid"
@@ -1856,10 +1751,9 @@
       "format": "Excel",
       "technology": "Macro Excel",
       "data_owner": "",
-      "cypher_query": "CREATE (ValorCuotaSebra:ORIGEN{nombre:\"Valor Cuota Sebra\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[MdK, GdP]\", formato:\"Excel\"});",
       "application": "Valor Cuota Sebra",
       "type": "Excel",
-      "tier": "Mid"
+      "tier": "Low"
     },
     {
       "id": "ConciliacionesCustodia",
@@ -1879,7 +1773,6 @@
       "format": "BD SQL Server",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (ConciliacionesCustodia:INTERMEDIO{nombre:\"Conciliaciones Custodia\", contacto:\"Cristian Ojeda\", emailContacto:\"cojeda\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[MdK, GdP]\", formato:\"BD SQL Server\"});",
       "application": "Conciliaciones Custodia",
       "type": "BD SQL Server",
       "tier": "Mid"
@@ -1887,7 +1780,7 @@
     {
       "id": "BizagiCL",
       "project": "Fenix",
-      "layer": "",
+      "layer": "INTERMEDIO",
       "name": "Bizagi Workflows Chile",
       "name_secondary": "",
       "app_code": "",
@@ -1902,7 +1795,6 @@
       "format": "Aplicación",
       "technology": "IaaS Privado",
       "data_owner": "",
-      "cypher_query": "CREATE (BizagiCL:{nombre:\"Bizagi Workflows Chile\", contacto:\"Rommel Alejandro Oyanguren Moller\", emailContacto:\"royanguren\", responsable:\"CC Chile\", pais:\"Chile\", negocio:\"[MdK, GdP]\", formato:\"Aplicación\"});",
       "application": "Bizagi Workflows Chile",
       "type": "Aplicación",
       "tier": "Mid"
@@ -1919,7 +1811,6 @@
       "flow_id": "1",
       "flow_description": "Estados de Cuenta",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (GestorBO)-[frecuencia:DIARIO{detalle:\"Estados de Cuenta\", id_flujo:1, descripcion_flujo:\"Estados de Cuenta\", secuencia_flujo:2}]->(Salesforce);",
       "type": "Estados de Cuenta"
     },
     {
@@ -1932,7 +1823,6 @@
       "flow_id": "2",
       "flow_description": "Dispersi¢n de pagos",
       "flow_sequence": "3",
-      "cypher_query": "CREATE (PortalTransaccionalOnPremise)-[frecuencia:ONLINE{detalle:\"Dispersi¢n de pagos\", id_flujo:2, descripcion_flujo:\"Dispersi¢n de pagos\", secuencia_flujo:3}]->(PortalTransaccionalCloud);",
       "type": "Dispersi¢n de pagos"
     },
     {
@@ -1945,7 +1835,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Salesforce)-[frecuencia:ONLINE{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(SalesforceSales);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -1958,7 +1847,6 @@
       "flow_id": "1",
       "flow_description": "Estados de Cuenta",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (BICORR)-[frecuencia:DIARIO{detalle:\"Estados de Cuenta\", id_flujo:1, descripcion_flujo:\"Estados de Cuenta\", secuencia_flujo:1}]->(GestorBO);",
       "type": "Estados de Cuenta"
     },
     {
@@ -1971,7 +1859,6 @@
       "flow_id": "2",
       "flow_description": "Dispersi¢n de pagos",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (BICORR)-[frecuencia:ONLINE{detalle:\"Dispersi¢n de pagos\", id_flujo:2, descripcion_flujo:\"Dispersi¢n de pagos\", secuencia_flujo:1}]->(CoreCash);",
       "type": "Dispersi¢n de pagos"
     },
     {
@@ -1984,7 +1871,6 @@
       "flow_id": "3",
       "flow_description": "Informaci¢n de clientes",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (BICORR)-[frecuencia:ONLINE{detalle:\"Informaci¢n de clientes\", id_flujo:3, descripcion_flujo:\"Informaci¢n de clientes\", secuencia_flujo:1}]->(CoreCash);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -1997,7 +1883,6 @@
       "flow_id": "2",
       "flow_description": "Dispersi¢n de pagos",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (CoreCash)-[frecuencia:ONLINE{detalle:\"Dispersi¢n de pagos\", id_flujo:2, descripcion_flujo:\"Dispersi¢n de pagos\", secuencia_flujo:2}]->(PortalTransaccionalOnPremise);",
       "type": "Dispersi¢n de pagos"
     },
     {
@@ -2010,7 +1895,6 @@
       "flow_id": "3",
       "flow_description": "Informaci¢n de clientes",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (CoreCash)-[frecuencia:ONLINE{detalle:\"Informaci¢n de clientes\", id_flujo:3, descripcion_flujo:\"Informaci¢n de clientes\", secuencia_flujo:2}]->(PortalTransaccionalOnPremise);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2023,7 +1907,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (CoreCash)-[frecuencia:DIARIO{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ClientePJ);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2036,7 +1919,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ClientePJ)-[frecuencia:DIARIO{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Transaccional);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2049,7 +1931,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Transaccional)-[frecuencia:DIARIO{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PortalTransaccionalCloud);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2062,7 +1943,6 @@
       "flow_id": "3",
       "flow_description": "Informaci¢n de clientes",
       "flow_sequence": "3",
-      "cypher_query": "CREATE (PortalTransaccionalOnPremise)-[frecuencia:ONLINE{detalle:\"Informaci¢n de clientes\", id_flujo:3, descripcion_flujo:\"Informaci¢n de clientes\", secuencia_flujo:3}]->(Operatyba);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2075,7 +1955,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Operatyba)-[frecuencia:ONLINE{detalle:\"Dispersi¢n de pagos\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PortalTransaccionalOnPremise);",
       "type": "Dispersi¢n de pagos"
     },
     {
@@ -2088,7 +1967,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (MiBancoCO)-[frecuencia:DIARIO{detalle:\"Saldos y Movimientos RF\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(TybaCO);",
       "type": "Saldos y Movimientos RF"
     },
     {
@@ -2101,7 +1979,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Datalake)-[frecuencia:DIARIO{detalle:\"Saldos y Movimientos PV\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(TybaCO);",
       "type": "Saldos y Movimientos PV"
     },
     {
@@ -2114,7 +1991,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Operatyba)-[frecuencia:MENSUAL{detalle:\"Saldos y movimientos\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Computec);",
       "type": "Saldos y movimientos"
     },
     {
@@ -2127,7 +2003,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Computec)-[frecuencia:MENSUAL{detalle:\"Extractos\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PortalClientesCO);",
       "type": "Extractos"
     },
     {
@@ -2140,7 +2015,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Neffi)-[frecuencia:MENSUAL{detalle:\"Certificados Tributarios\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PortalClientesCO);",
       "type": "Certificados Tributarios"
     },
     {
@@ -2153,7 +2027,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Operatyba)-[frecuencia:MENSUAL{detalle:\"Certificados Tributarios\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Neffi);",
       "type": "Certificados Tributarios"
     },
     {
@@ -2166,7 +2039,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (PowerBI_IntNeg)-[frecuencia:MENSUAL{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Excel_IntNeg);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2179,7 +2051,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Excel_IntNeg)-[frecuencia:MENSUAL{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ODSColombia);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2192,7 +2063,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ODSColombia)-[frecuencia:ONLINE{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(WM_Lab_CO);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2205,7 +2075,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Orion)-[frecuencia:MENSUAL{detalle:\"Saldos Comisionista\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Excel_SaldosOrion);",
       "type": "Saldos Comisionista"
     },
     {
@@ -2218,7 +2087,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Orion)-[frecuencia:DIARIO{detalle:\"Saldos Comisionista\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(BICORR);",
       "type": "Saldos Comisionista"
     },
     {
@@ -2231,7 +2099,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (SalesforceSales)-[frecuencia:ONLINE{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Orion);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2244,7 +2111,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (SalesforceSales)-[frecuencia:DIARIO{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(BICORR);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2257,7 +2123,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (SalesforceSales)-[frecuencia:DIARIO{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(SIF);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2270,7 +2135,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (SalesforceSales)-[frecuencia:DIARIO{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Sifi);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2283,7 +2147,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Sifi)-[frecuencia:DIARIO{detalle:\"Saldos Fiduciaria\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(BICORR);",
       "type": "Saldos Fiduciaria"
     },
     {
@@ -2296,7 +2159,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (SIF)-[frecuencia:ONLINE{detalle:\"SyM Fondos GdA\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(BICORR);",
       "type": "SyM Fondos GdA"
     },
     {
@@ -2309,7 +2171,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Operatyba)-[frecuencia:MENSUAL{detalle:\"Comisiones FPV\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ERP);",
       "type": "Comisiones FPV"
     },
     {
@@ -2322,7 +2183,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Operatyba)-[frecuencia:DIARIO{detalle:\"SyM  GdA FPV\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Datalake);",
       "type": "SyM  GdA FPV"
     },
     {
@@ -2335,7 +2195,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ODSLab)-[frecuencia:DIARIO{detalle:\"SyM WM\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(WM_Lab);",
       "type": "SyM WM"
     },
     {
@@ -2348,7 +2207,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Datalake)-[frecuencia:DIARIO{detalle:\"SyM WM\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ODSLab);",
       "type": "SyM WM"
     },
     {
@@ -2361,7 +2219,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Excel_SaldosOrion)-[frecuencia:MENSUAL{detalle:\"Saldos Comisionista\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ODSColombia);",
       "type": "Saldos Comisionista"
     },
     {
@@ -2374,7 +2231,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Excel_BaseClientes)-[frecuencia:MENSUAL{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Excel_BaseConsolidada);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2387,7 +2243,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Excel_BaseConsolidada)-[frecuencia:MENSUAL{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ODSLab);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2400,7 +2255,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ODSLab)-[frecuencia:MENSUAL{detalle:\"Informaci¢n de clientes, SyM WM\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(WM_Lab_CL);",
       "type": "Informaci¢n de clientes, SyM WM"
     },
     {
@@ -2413,7 +2267,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ERP)-[frecuencia:ONLINE{detalle:\"Emisi¢n factura a clientes / Registro cuentas x pagar proveedor\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Facturador);",
       "type": "Emisi¢n factura a clientes / Registro cuentas x pagar proveedor"
     },
     {
@@ -2426,7 +2279,6 @@
       "flow_id": "98",
       "flow_description": "Cartolas",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (SPChile)-[frecuencia:DIARIO{detalle:\"Flujo de cartolas\", id_flujo:98, descripcion_flujo:\"Cartolas\", secuencia_flujo:0}]->(ERP);",
       "type": "Flujo de cartolas"
     },
     {
@@ -2439,7 +2291,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (RU)-[frecuencia:MENSUAL{detalle:\"SyM Fondos, mandatos e inmobiliarios\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Excel_BaseConsolidada);",
       "type": "SyM Fondos, mandatos e inmobiliarios"
     },
     {
@@ -2452,7 +2303,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Sebra)-[frecuencia:MENSUAL{detalle:\"SyM RF, RV y Spot forward\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Excel_BaseConsolidada);",
       "type": "SyM RF, RV y Spot forward"
     },
     {
@@ -2465,7 +2315,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Sebra)-[frecuencia:DIARIO{detalle:\"Asientos contables\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Asientos);",
       "type": "Asientos contables"
     },
     {
@@ -2478,7 +2327,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Asientos)-[frecuencia:DIARIO{detalle:\"Asientos contables\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ReplicaSebra);",
       "type": "Asientos contables"
     },
     {
@@ -2491,7 +2339,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Asientos)-[frecuencia:DIARIO{detalle:\"Asientos contables\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(ERP);",
       "type": "Asientos contables"
     },
     {
@@ -2504,7 +2351,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ODSLab)-[frecuencia:DIARIO{detalle:\"Saldos y movimientos WM\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(WM_Lab_PE);",
       "type": "Saldos y movimientos WM"
     },
     {
@@ -2517,7 +2363,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ODSLab)-[frecuencia:DIARIO{detalle:\"Saldos Multifonds\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(TransaccionalidadPeru);",
       "type": "Saldos Multifonds"
     },
     {
@@ -2530,7 +2375,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Consist)-[frecuencia:DIARIO{detalle:\"Saldos Consist\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PAUTGWINP04);",
       "type": "Saldos Consist"
     },
     {
@@ -2543,7 +2387,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Seriva)-[frecuencia:DIARIO{detalle:\"Vector de precios RF y RV\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PAUTGWINP04);",
       "type": "Vector de precios RF y RV"
     },
     {
@@ -2556,7 +2399,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Savings)-[frecuencia:DIARIO{detalle:\"Saldos y Movimientos Savings\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PAUTGWINP04);",
       "type": "Saldos y Movimientos Savings"
     },
     {
@@ -2569,7 +2411,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Impacs)-[frecuencia:DIARIO{detalle:\"Saldos y Movimientos Impacs\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PAUTGWINP04);",
       "type": "Saldos y Movimientos Impacs"
     },
     {
@@ -2582,7 +2423,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (PAUTGWINP04)-[frecuencia:DIARIO{detalle:\"Saldos y Movimientos consolidados WM Per£\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Datalake);",
       "type": "Saldos y Movimientos consolidados WM Per£"
     },
     {
@@ -2595,7 +2435,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (PRIESGOBIP01)-[frecuencia:DIARIO{detalle:\"Vector de precios CC\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Datalake);",
       "type": "Vector de precios CC"
     },
     {
@@ -2608,7 +2447,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (PPATP01)-[frecuencia:DIARIO{detalle:\"Saldos Pac¡fico | Saldos y operaciones MiBanco\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Datalake);",
       "type": "Saldos Pac¡fico | Saldos y operaciones MiBanco"
     },
     {
@@ -2621,7 +2459,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (ASBINTDB01)-[frecuencia:DIARIO{detalle:\"Informaci¢n InterT24\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Datalake);",
       "type": "Informaci¢n InterT24"
     },
     {
@@ -2634,7 +2471,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Multifonds)-[frecuencia:DIARIO{detalle:\"Saldos y valor de fondos\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Datalake);",
       "type": "Saldos y valor de fondos"
     },
     {
@@ -2647,7 +2483,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Seriva)-[frecuencia:DIARIO{detalle:\"Saldos y valor de fondos\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(SP_MdK_PE);",
       "type": "Saldos y valor de fondos"
     },
     {
@@ -2660,7 +2495,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (SP_MdK_PE)-[frecuencia:DIARIO{detalle:\"Saldos y valor de fondos\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PBIPlaneamiento);",
       "type": "Saldos y valor de fondos"
     },
     {
@@ -2673,7 +2507,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Datalake)-[frecuencia:DIARIO{detalle:\"Informaci¢n de clientes\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(PBIPlaneamiento);",
       "type": "Informaci¢n de clientes"
     },
     {
@@ -2686,7 +2519,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (PBIPlaneamiento)-[frecuencia:DIARIO{detalle:\"Saldos y valor de fondos x cliente\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(Excel_Planeamiento);",
       "type": "Saldos y valor de fondos x cliente"
     },
     {
@@ -2699,7 +2531,6 @@
       "flow_id": "0",
       "flow_description": "tbd",
       "flow_sequence": "0",
-      "cypher_query": "CREATE (Excel_Planeamiento)-[frecuencia:DIARIO{detalle:\"Saldos y valor de fondos x cliente\", id_flujo:0, descripcion_flujo:\"tbd\", secuencia_flujo:0}]->(WebClientesPE);",
       "type": "Saldos y valor de fondos x cliente"
     },
     {
@@ -2712,7 +2543,6 @@
       "flow_id": "1",
       "flow_description": "tbd",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (BloombergCO)-[frecuencia:DIARIO{detalle:\"Portafolios | Activos operados\", id_flujo:1, descripcion_flujo:\"tbd\", secuencia_flujo:1}]->(ReporteadorClientesLocales);",
       "type": "Portafolios | Activos operados"
     },
     {
@@ -2725,7 +2555,6 @@
       "flow_id": "1",
       "flow_description": "tbd",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (CorInterno)-[frecuencia:DIARIO{detalle:\"Portafolios | Activos operados\", id_flujo:1, descripcion_flujo:\"tbd\", secuencia_flujo:1}]->(ReporteadorClientesLocales);",
       "type": "Portafolios | Activos operados"
     },
     {
@@ -2738,7 +2567,6 @@
       "flow_id": "2",
       "flow_description": "tbd",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (BloombergCO)-[frecuencia:DIARIO{detalle:\"EMSX y Blotter RFI\", id_flujo:2, descripcion_flujo:\"tbd\", secuencia_flujo:1}]->(ReporteadorATFADR);",
       "type": "EMSX y Blotter RFI"
     },
     {
@@ -2751,7 +2579,6 @@
       "flow_id": "3",
       "flow_description": "tbd",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (FidessaCO)-[frecuencia:DIARIO{detalle:\"Fidessa Trades y Fidessa Folios\", id_flujo:3, descripcion_flujo:\"tbd\", secuencia_flujo:1}]->(DailyManagement);",
       "type": "Fidessa Trades y Fidessa Folios"
     },
     {
@@ -2764,7 +2591,6 @@
       "flow_id": "2",
       "flow_description": "tbd",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (DailyManagement)-[frecuencia:DIARIO{detalle:\"\", id_flujo:2, descripcion_flujo:\"tbd\", secuencia_flujo:2}]->(RepProformaClientesMdK);",
       "type": ""
     },
     {
@@ -2777,7 +2603,6 @@
       "flow_id": "2",
       "flow_description": "tbd",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (DailyManagement)-[frecuencia:DIARIO{detalle:\"\", id_flujo:2, descripcion_flujo:\"tbd\", secuencia_flujo:2}]->(RepEjecutivaMdk);",
       "type": ""
     },
     {
@@ -2790,7 +2615,6 @@
       "flow_id": "1",
       "flow_description": "tbd",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (ReporteadorClientesLocales)-[frecuencia:DIARIO{detalle:\"\", id_flujo:1, descripcion_flujo:\"tbd\", secuencia_flujo:2}]->(RepProformaClientesMdK);",
       "type": ""
     },
     {
@@ -2803,7 +2627,6 @@
       "flow_id": "2",
       "flow_description": "tbd",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (ReporteadorClientesLocales)-[frecuencia:DIARIO{detalle:\"\", id_flujo:2, descripcion_flujo:\"tbd\", secuencia_flujo:2}]->(RepEjecutivaMdk);",
       "type": ""
     },
     {
@@ -2816,7 +2639,6 @@
       "flow_id": "1",
       "flow_description": "tbd",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (ReporteadorETFADR)-[frecuencia:DIARIO{detalle:\"\", id_flujo:1, descripcion_flujo:\"tbd\", secuencia_flujo:2}]->(RepProformaClientesMdK);",
       "type": ""
     },
     {
@@ -2829,7 +2651,6 @@
       "flow_id": "2",
       "flow_description": "tbd",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (ReporteadorETFADR)-[frecuencia:DIARIO{detalle:\"\", id_flujo:2, descripcion_flujo:\"tbd\", secuencia_flujo:2}]->(RepEjecutivaMdk);",
       "type": ""
     },
     {
@@ -2842,7 +2663,6 @@
       "flow_id": "99",
       "flow_description": "tbd",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (Excel_Instrumentos)-[frecuencia:DIARIO{detalle:\"Entrega de distribuci¢n masiva de instrumentos\", id_flujo:99, descripcion_flujo:\"tbd\", secuencia_flujo:1}]->(Mantenedor);",
       "type": "Entrega de distribuci¢n masiva de instrumentos"
     },
     {
@@ -2855,7 +2675,6 @@
       "flow_id": "99",
       "flow_description": "tbd",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (Mantenedor)-[frecuencia:DIARIO{detalle:\"Instrumentos actualizados\", id_flujo:99, descripcion_flujo:\"tbd\", secuencia_flujo:2}]->(RU);",
       "type": "Instrumentos actualizados"
     },
     {
@@ -2868,7 +2687,6 @@
       "flow_id": "98",
       "flow_description": "Cartolas",
       "flow_sequence": "1",
-      "cypher_query": "CREATE (PershingCL)-[frecuencia:DIARIO{detalle:\"Origen de corretaje y asesor¡a\", id_flujo:98, descripcion_flujo:\"Cartolas\", secuencia_flujo:1}]->(SGCartolas);",
       "type": "Origen de corretaje y asesor¡a"
     },
     {
@@ -2881,7 +2699,6 @@
       "flow_id": "98",
       "flow_description": "Cartolas",
       "flow_sequence": "2",
-      "cypher_query": "CREATE (SGCartolas)-[frecuencia:DIARIO{detalle:\"Generaci¢n de Cartolas\", id_flujo:98, descripcion_flujo:\"Cartolas\", secuencia_flujo:2}]->(RU);",
       "type": "Generaci¢n de Cartolas"
     },
     {
@@ -2894,7 +2711,6 @@
       "flow_id": "98",
       "flow_description": "Cartolas",
       "flow_sequence": "3",
-      "cypher_query": "CREATE (RU)-[frecuencia:DIARIO{detalle:\"Informaci¢n de cartolas\", id_flujo:98, descripcion_flujo:\"Cartolas\", secuencia_flujo:3}]->(Cartolas);",
       "type": "Informaci¢n de cartolas"
     },
     {
@@ -2907,7 +2723,6 @@
       "flow_id": "98",
       "flow_description": "Cartolas",
       "flow_sequence": "4",
-      "cypher_query": "CREATE (Cartolas)-[frecuencia:DIARIO{detalle:\"Entrega de cartolas a clientes via email\", id_flujo:98, descripcion_flujo:\"Cartolas\", secuencia_flujo:4}]->(Sendgrid);",
       "type": "Entrega de cartolas a clientes via email"
     },
     {

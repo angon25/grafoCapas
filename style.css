@@ -136,7 +136,7 @@ svg {
 .node circle:hover {
   stroke-width: 3px;
   filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.8));
-  r: 25;
+  r: 10; //Valor original 25
   /* temporary increase */
 }
 

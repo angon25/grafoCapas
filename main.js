@@ -153,9 +153,21 @@ d3.json("./data.json").then(data => {
   const allNodes = data.nodes;
   const allLinks = data.links;
 
+  // Pre-process links to ensure source/target are objects
+  // This avoids D3 having to look them up by ID during the simulation start
+  // and makes our filtering logic consistent (always objects)
+  const nodeMap = new Map(allNodes.map(n => [n.id, n]));
+  allLinks.forEach(l => {
+    if (typeof l.source !== 'object') l.source = nodeMap.get(l.source);
+    if (typeof l.target !== 'object') l.target = nodeMap.get(l.target);
+  });
+
+  // Filter out links where source or target is missing (invalid ID)
+  const validLinks = allLinks.filter(l => l.source && l.target);
+
   // Pre-calculate jitter for links to be deterministic per link but random across links
   // This prevents the lines from "vibrating" on every tick
-  allLinks.forEach(d => {
+  validLinks.forEach(d => {
     d.jitter = (Math.random() - 0.5) * 40; // +/- 20px deviation
   });
 
@@ -196,17 +208,16 @@ d3.json("./data.json").then(data => {
     });
 
   // Initial render
-  update(allNodes, allLinks);
+  update(allNodes, validLinks);
 
   function filterGraph() {
     const filteredNodes = allNodes.filter(d => selectedCountries.has(d.country));
-    const filteredLinks = allLinks.filter(l => {
-      const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
-      const targetId = typeof l.target === 'object' ? l.target.id : l.target;
-      // Keep link only if both ends are in the filtered set
-      return filteredNodes.find(n => n.id === sourceId) &&
-        filteredNodes.find(n => n.id === targetId);
-    });
+    const filteredNodesSet = new Set(filteredNodes);
+
+    // Links are already resolved to objects, so we can check membership directly
+    const filteredLinks = validLinks.filter(l =>
+      filteredNodesSet.has(l.source) && filteredNodesSet.has(l.target)
+    );
     update(filteredNodes, filteredLinks);
   }
 
@@ -242,7 +253,7 @@ d3.json("./data.json").then(data => {
               .on("end", dragended));
 
           g.append("circle")
-            .attr("r", 20)
+            .attr("r", 5)
             .attr("fill", d => color(d.country));
 
           g.append("text")
@@ -309,8 +320,11 @@ d3.json("./data.json").then(data => {
   function ticked() {
     // Bounding Box Constraint
     // Radius is ~20px, so we keep center within [25, width-25]
-    node.attr("cx", d => d.x = Math.max(25, Math.min(width - 25, d.x)))
-      .attr("cy", d => d.y = Math.max(25, Math.min(height - 25, d.y)));
+    node.attr("transform", d => {
+      d.x = Math.max(25, Math.min(width - 25, d.x));
+      d.y = Math.max(25, Math.min(height - 25, d.y));
+      return `translate(${d.x},${d.y})`;
+    });
 
     // Midpoint Orthogonal routing: Horizontal -> Vertical -> Horizontal
     // Avoids overlapping on node axes + Jitter
@@ -328,9 +342,6 @@ d3.json("./data.json").then(data => {
     linkLabel
       .attr("x", d => (((d.source.x + d.target.x) / 2) + (d.jitter || 0)) - 8)
       .attr("y", d => ((d.source.y + d.target.y) / 2) - 8);
-
-    node
-      .attr("transform", d => `translate(${d.x},${d.y})`);
   }
 
   function dragstarted(event, d) {
