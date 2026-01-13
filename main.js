@@ -80,9 +80,9 @@ svg.append("defs").selectAll("marker")
 // Swimlane setup
 const laneHeight = height / 3;
 const lanes = [
-  { id: "High", y: laneHeight * 0.5, label: "High Tier" },
-  { id: "Mid", y: laneHeight * 1.5, label: "Mid Tier" },
-  { id: "Low", y: laneHeight * 2.5, label: "Low Tier" }
+  { id: "High", y: laneHeight * 0.5, label: "Portales y Canales" },
+  { id: "Mid", y: laneHeight * 1.5, label: "Almacenamiento Intermedio" },
+  { id: "Low", y: laneHeight * 2.5, label: "Orígenes" }
 ];
 
 // Draw swimlane dividers and labels
@@ -96,8 +96,8 @@ let swimLines = laneGroup.selectAll("line")
   .attr("x2", width * 4) // Make them very long to cover zoom/pan
   .attr("y1", d => d)
   .attr("y2", d => d)
-  .attr("stroke", "#06064fff")
-  .attr("stroke-width", 1)
+  .attr("stroke", "#3f3f4fff")
+  .attr("stroke-width", 5)
   .attr("stroke-dasharray", "10,5");
 
 laneGroup.selectAll("text")
@@ -149,7 +149,26 @@ let linkLabel = gMain.append("g").attr("class", "link-labels").selectAll(".link-
 let node = gMain.append("g").attr("class", "nodes").selectAll("g");
 const color = d3.scaleOrdinal(d3.schemeCategory10);
 
-d3.json("./data.json").then(data => {
+const loadData = async () => {
+  try {
+    const [nodesText, linksText] = await Promise.all([
+      d3.text("./nodos.json"),
+      d3.text("./arcos.json")
+    ]);
+
+    // The files contain comma-separated objects but are missing the enclosing brackets
+    // We wrap them manually to parse as JSON arrays
+    const allNodes = JSON.parse(`[${nodesText}]`);
+    const allLinks = JSON.parse(`[${linksText}]`);
+
+    return { nodes: allNodes, links: allLinks };
+  } catch (error) {
+    console.error("Error loading data:", error);
+    return { nodes: [], links: [] };
+  }
+};
+
+loadData().then(data => {
   const allNodes = data.nodes;
   const allLinks = data.links;
 
